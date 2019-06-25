@@ -1,0 +1,494 @@
+id;name;child_ids
+1;"[{""nl"" : ""POI""}, {""en"" : ""POI""}, {""fr"" : ""POI""}, {""de"" : ""POI""}, {""es"" : ""Punto de interés""}, {""ca"" : ""Punt d'interès""}, {""it"" : ""POI""}]";[43, 54, 189, 314, 420, 430, 439, 564, 569]
+2;"[{""en"" : ""Route-Info""}, {""es"" : ""Info Ruta""}, {""ca"" : ""Info Ruta""}, {""it"" : ""Info itinerario""}, {""de"" : ""Routen-Info""}, {""fr"" : ""Info itinéraire""}, {""nl"" : ""Route-info""}]";[3, 7, 12, 23, 25, 44, 46, 50, 116, 118, 119, 120, 121, 122, 123, 144, 154, 167, 174, 185, 208, 253, 254, 288, 290, 301, 345, 351, 368, 370, 372, 373, 376, 378, 381, 388, 398, 401, 448, 453, 463, 480, 481, 495, 498, 499, 516, 547, 556, 560, 567, 570]
+3;"[{""nl"" : ""Parking""}, {""en"" : ""Parking""}, {""fr"" : ""Parking""}, {""de"" : ""Parken""}, {""es"" : ""Aparcamiento""}, {""ca"" : ""Aparcament""}, {""it"" : ""Parcheggio""}]";[208]
+4;"[{""nl"" : ""Schuilplaats""}, {""en"" : ""Shelter""}, {""fr"" : ""Abri""}, {""de"" : ""Schutz""}, {""es"" : ""Cobertizo""}, {""ca"" : ""Cobert""}, {""it"" : ""Riparo""}]";
+5;"[{""nl"" : ""Hut""}, {""en"" : ""Cabin""}, {""fr"" : ""Hutte""}, {""de"" : ""Kabine""}, {""es"" : ""Cabaña""}, {""ca"" : ""Cabana""}, {""it"" : ""Capanna""}]";
+6;"[{""fr"" : ""Camping""}, {""de"" : ""Campingplatz""}, {""es"" : ""Camping""}, {""ca"" : ""Camping""}, {""it"" : ""Campeggio""}, {""nl"" : ""Kampeerterrein""}, {""en"" : ""Camp-site""}]";[523, 563]
+7;"[{""nl"" : ""Kleedkamer""}, {""en"" : ""Changing room""}, {""fr"" : ""Loge""}, {""de"" : ""Ändernder Raum""}, {""es"" : ""Camerino""}, {""ca"" : ""Vestidor""}, {""it"" : ""Spogliatoio""}]";
+9;"[{""nl"" : ""Douche""}, {""en"" : ""Shower""}, {""fr"" : ""Douche""}, {""de"" : ""Dusche""}, {""es"" : ""Ducha""}, {""ca"" : ""Dutxa""}, {""it"" : ""Pioggia""}]";
+10;"[{""nl"" : ""Hotel""}, {""en"" : ""Hotel""}, {""fr"" : ""Hôtel""}, {""de"" : ""Hotel""}, {""es"" : ""Hotel""}, {""ca"" : ""Hotel""}, {""it"" : ""Hotel""}]";
+11;"[{""en"" : ""Locker""}, {""fr"" : ""Cabine""}, {""de"" : ""Schließfach""}, {""es"" : ""Taquilla""}, {""nl"" : ""Kluisjes""}, {""ca"" : ""Taquilles""}, {""it"" : ""Armadietti""}]";
+12;"[{""en"" : ""Shelter""}, {""fr"" : ""Abri""}, {""nl"" : ""Schuilplaats""}, {""de"" : ""Schutz""}, {""es"" : ""Cobertizo""}, {""ca"" : ""Cobert""}]";
+13;"[{""nl"" : ""Toilet""}, {""en"" : ""Toilet""}, {""fr"" : ""Toilettes""}, {""de"" : ""Toilette""}, {""es"" : ""Lavabo""}, {""ca"" : ""Lavabo""}]";
+14;"[{""nl"" : ""Eet en drinkgelegenheid""}, {""en"" : ""Eat & Drink""}, {""fr"" : ""Manger et boire""}, {""de"" : ""Essen & Getränk""}, {""es"" : ""Comer y Beber""}, {""ca"" : ""Menjar i Beure""}]";[15, 16, 17, 18, 19, 20, 21, 22, 135, 254, 255, 261, 282, 342, 375, 528, 572]
+15;"[{""nl"" : ""Bakkerij""}, {""en"" : ""Bakery""}, {""fr"" : ""Boulangerie""}, {""de"" : ""Bäckerei""}, {""es"" : ""Panaderia""}, {""ca"" : ""Fleca""}]";
+16;"[{""nl"" : ""Brouwerij""}, {""en"" : ""Brewery""}, {""fr"" : ""Brasserie""}, {""de"" : ""Brauerei""}, {""es"" : ""Fábrica de Cerveza""}, {""ca"" : ""Fàbrica de Cervesa""}]";
+17;"[{""nl"" : ""Cafe""}, {""en"" : ""Pub""}, {""fr"" : ""Café""}, {""de"" : ""Pub""}, {""es"" : ""Pub""}, {""ca"" : ""Pub""}]";
+18;"[{""nl"" : ""Restaurant""}, {""en"" : ""Restaurant""}, {""fr"" : ""Restaurants""}, {""de"" : ""Gaststätte""}, {""es"" : ""Restaurante""}, {""ca"" : ""Restaurant""}]";[255, 281, 282]
+19;"[{""nl"" : ""Eetgelegenheid""}, {""en"" : ""Eatery""}, {""fr"" : ""Endroit pour manger""}, {""de"" : ""Restaurant""}, {""es"" : ""Chiringuito""}, {""ca"" : ""Chiringuito""}]";
+20;"[{""nl"" : ""Bron""}, {""en"" : ""Source""}, {""fr"" : ""Source""}, {""de"" : ""Quelle""}, {""es"" : ""Fuente""}, {""ca"" : ""Font""}]";
+21;"[{""nl"" : ""Drankmachine""}, {""en"" : ""Vendormachine""}, {""fr"" : ""Distributeur de boissons""}, {""de"" : ""Vendormachine""}, {""es"" : ""Máquina Vendedora""}, {""ca"" : ""Màquina Venedora""}]";
+22;"[{""nl"" : ""Waterput""}, {""en"" : ""Well""}, {""fr"" : ""Puit""}, {""de"" : ""Brunnen""}, {""es"" : ""Manantial""}, {""ca"" : ""Deu d'aigua""}]";
+23;"[{""nl"" : ""Informatiecentrum""}, {""en"" : ""Information-centre""}, {""fr"" : ""Centre d'information""}, {""de"" : ""Information-Mitte""}, {""es"" : ""Centro de información""}, {""ca"" : ""Centre d'informació""}]";[25, 388, 547]
+24;"[{""nl"" : ""Bibliotheek""}, {""en"" : ""Library""}, {""fr"" : ""Bibliothèque""}, {""de"" : ""Bibliothek""}, {""es"" : ""Biblioteca""}, {""ca"" : ""Biblioteca""}]";
+25;"[{""nl"" : ""Toeristische informatie""}, {""en"" : ""Tourist information""}, {""fr"" : ""Informations pour touristes""}, {""de"" : ""Touristinformation""}, {""es"" : ""Información turística""}, {""ca"" : ""Informació turística""}]";
+26;"[{""nl"" : ""Hulp""}, {""en"" : ""Support""}, {""fr"" : ""Aide""}, {""de"" : ""Unterstützung""}, {""es"" : ""Apoyo""}, {""ca"" : ""Suport""}]";[27, 28, 29, 30, 32, 33, 395, 572]
+27;"[{""nl"" : ""Eerste hulp bij ongevallen""}, {""en"" : ""Human support""}, {""fr"" : ""Défenseur humanitaire""}, {""de"" : ""Menschliche Unterstützung""}, {""es"" : ""Apoyo humano""}, {""ca"" : ""Suport humà""}]";[30]
+28;"[{""nl"" : ""Techische hulp""}, {""en"" : ""Technical support""}, {""fr"" : ""Aide technique""}, {""de"" : ""Technische Stütztierunterstützung""}, {""es"" : ""Apoyo técnico""}, {""ca"" : ""suport tècnic""}]";[33, 34, 36, 37, 41, 395]
+29;"[{""fr"" : ""Défenseur d'animaux""}, {""de"" : ""Tierunterstützung""}, {""es"" : ""Apoyo animal""}, {""ca"" : ""suport animal""}, {""nl"" : ""Hulp voor dieren""}, {""en"" : ""Animal support""}]";
+30;"[{""nl"" : ""EHBO""}, {""en"" : ""First aid""}, {""fr"" : ""EHBO""}, {""de"" : ""ERSTE HILFE""}, {""es"" : ""Primeros auxilios""}, {""ca"" : ""Primers auxilis""}]";
+32;"[{""nl"" : ""Ziekenhuis""}, {""en"" : ""Hospital""}, {""fr"" : ""Hôpital""}, {""de"" : ""Krankenhaus""}, {""es"" : ""Hospital""}, {""ca"" : ""Hospital""}]";
+33;"[{""nl"" : ""Luchtpomp""}, {""en"" : ""Air-pump""}, {""fr"" : ""Pompe à air""}, {""de"" : ""Luft-Pumpe""}, {""es"" : ""Bomba de aire""}, {""ca"" : ""Bomba d'aire""}]";
+34;"[{""nl"" : ""Fietswinkel""}, {""en"" : ""Bicycle shop""}, {""fr"" : ""Magazin de bicyclettes""}, {""de"" : ""Fahrradgeschäft""}, {""es"" : ""Tienda de bicicletas""}, {""ca"" : ""Botiga de bicicletes""}]";
+36;"[{""nl"" : ""Garage""}, {""en"" : ""Garage""}, {""fr"" : ""Garage""}, {""de"" : ""Garage""}, {""es"" : ""Taller mecánico""}, {""ca"" : ""Taller mecànic""}]";
+37;"[{""nl"" : ""Motorwinkel""}, {""en"" : ""Motor-bike shop""}, {""fr"" : ""Magazin pour vente de motos""}, {""de"" : ""Motorradgeschäft""}, {""es"" : ""Tienda de motos""}, {""ca"" : ""Botiga de motos""}]";
+38;"[{""nl"" : ""Motel""}, {""en"" : ""Motel""}, {""fr"" : ""Môtel""}, {""de"" : ""Motel""}, {""es"" : ""Motel""}, {""ca"" : ""Motel""}]";
+39;"[{""nl"" : ""Jeugdherberg""}, {""en"" : ""Youthhostel""}, {""fr"" : ""Auberge de jeunesse""}, {""de"" : ""Youthhostel""}, {""es"" : ""Albergue juvenil""}, {""ca"" : ""Alberg juvenil""}]";
+40;"[{""fr"" : ""col""}, {""de"" : ""Gebirgspass""}, {""es"" : ""Puerto de montaña""}, {""ca"" : ""Coll""}, {""nl"" : ""Pas""}, {""en"" : ""Pass""}]";
+41;"[{""nl"" : ""Benzinestation""}, {""en"" : ""Petrolstation""}, {""fr"" : ""Station benzine""}, {""de"" : ""Petrolstation""}, {""es"" : ""Gasolinera""}, {""ca"" : ""Benzinera""}]";
+43;"[{""nl"" : ""Transport""}, {""en"" : ""Transport""}, {""fr"" : ""Transport""}, {""de"" : ""Transport""}, {""es"" : ""Transporte""}, {""ca"" : ""Transport""}]";[2, 3, 36, 44, 46, 47, 48, 49, 50, 51, 53, 71, 72, 73, 116, 118, 119, 120, 121, 122, 144, 152, 154, 174, 185, 188, 191, 193, 239, 241, 242, 243, 246, 288, 294, 301, 323, 345, 351, 368, 373, 376, 395, 398, 399, 401, 418, 426, 432, 448, 453, 463, 471, 474, 480, 481, 498, 499, 516, 565]
+44;"[{""nl"" : ""Openbaar vervoer""}, {""en"" : ""Public transport""}, {""fr"" : ""Transport en commun""}, {""de"" : ""Öffentlicher Verkehr""}, {""es"" : ""Transporte público""}, {""ca"" : ""Transport públic""}]";[46, 47, 48, 49]
+46;"[{""nl"" : ""Bushalte""}, {""en"" : ""Busstop""}, {""fr"" : ""Arrêt de bus""}, {""de"" : ""Busstop""}, {""es"" : ""Parada de autobús""}, {""ca"" : ""Parada d'autobús""}]";
+47;"[{""nl"" : ""Metrostation""}, {""en"" : ""Metrostation""}, {""fr"" : ""Station de métro""}, {""de"" : ""Metrostation""}, {""es"" : ""Estación de metro""}, {""ca"" : ""Estació de metro""}]";
+48;"[{""nl"" : ""Treinstation""}, {""fr"" : ""Gare""}, {""de"" : ""Bahnhof""}, {""es"" : ""Estación de tren""}, {""ca"" : ""Estació de tren""}, {""en"" : ""Trainstation""}]";
+49;"[{""nl"" : ""Tramhalte""}, {""en"" : ""Tramstation""}, {""fr"" : ""Arrêt de tram""}, {""de"" : ""Straßenbahn stop""}, {""es"" : ""Parada de tranvía""}, {""ca"" : ""Parada de tramvia""}]";
+50;"[{""nl"" : ""Veer""}, {""en"" : ""Ferry""}, {""fr"" : ""Ferry""}, {""de"" : ""Fähre""}, {""es"" : ""Ferry""}, {""ca"" : ""Ferry""}]";[51, 53]
+51;"[{""en"" : ""Ferry for pedestrians and cyclists""}, {""fr"" : ""Ferry pour piétons et cyclistes""}, {""de"" : ""Fähre für Fußgänger und Radfahrer""}, {""es"" : ""Ferry para peatones y ciclistas""}, {""ca"" : ""Ferry per a vianants i ciclistes""}, {""nl"" : ""Veer voor voetgangers en fietsers""}]";
+52;"[{""en"" : ""Townhall""}, {""fr"" : ""Maîrie""}, {""de"" : ""Rathaus""}, {""es"" : ""Ayuntamiento""}, {""ca"" : ""Ajuntament""}, {""nl"" : ""Gemeentehuis""}]";
+53;"[{""en"" : ""Ferry for cars""}, {""fr"" : ""Ferry pour véhicules""}, {""de"" : ""Fähre für Autos""}, {""es"" : ""Ferry para coches""}, {""ca"" : ""Ferry per a cotxes""}, {""nl"" : ""Veer voor voertuigen""}]";
+54;"[{""nl"" : ""Recreatie""}, {""en"" : ""Recreation""}, {""fr"" : ""Récréation""}, {""de"" : ""Erholung""}, {""es"" : ""Recreo""}, {""ca"" : ""Esbarjo""}]";[6, 55, 56, 58, 59, 61, 62, 63, 70, 75, 78, 80, 82, 83, 84, 88, 91, 92, 93, 94, 96, 97, 98, 99, 103, 113, 114, 115, 247, 263, 264, 280, 283, 284, 285, 286, 287, 323, 324, 325, 332, 334, 340, 359, 363, 386, 387, 406, 435, 437, 447, 468, 504, 517, 518, 522, 533, 534, 535, 536, 537, 538, 540, 542, 544, 545, 546]
+55;"[{""nl"" : ""Aquarium""}, {""en"" : ""Aquarium""}, {""fr"" : ""Aquarium""}, {""de"" : ""Aquarium""}, {""es"" : ""Acuario""}, {""ca"" : ""Aquari""}]";[102, 341]
+56;"[{""nl"" : ""Dolfinarium""}, {""en"" : ""Dolfinarium""}, {""fr"" : ""Bassin aux dauphins""}, {""de"" : ""Dolfinarium""}, {""es"" : ""Delfinario""}, {""ca"" : ""Delfinari""}]";
+58;"[{""nl"" : ""Kust""}, {""en"" : ""Coast""}, {""fr"" : ""Rivage""}, {""de"" : ""Mitte Küste""}, {""es"" : ""Costa""}, {""ca"" : ""Costa""}]";[402, 403]
+59;"[{""nl"" : ""Badplaats""}, {""en"" : ""Bathing""}, {""fr"" : ""Station thermale""}, {""de"" : ""Baden""}, {""es"" : ""Zona de bañar""}, {""ca"" : ""Zona de banyar""}]";
+61;"[{""nl"" : ""Watersportclub""}, {""en"" : ""Beachclub""}, {""fr"" : ""Club de sport nautique""}, {""de"" : ""Beachclub""}, {""es"" : ""Club de playa""}, {""ca"" : ""Club de platja""}]";
+62;"[{""nl"" : ""Surfclub""}, {""en"" : ""Surfclub""}, {""fr"" : ""Club de surf""}, {""de"" : ""Surfclub""}, {""es"" : ""Club de surf""}, {""ca"" : ""Club de surf""}]";
+63;"[{""nl"" : ""Duikplaats""}, {""en"" : ""Divingspot""}, {""fr"" : ""Plongeoire""}, {""de"" : ""Tauchenspunkt""}, {""es"" : ""Zona de submarinismo""}, {""ca"" : ""Zona de submarinisme""}]";
+68;"[{""nl"" : ""Concertzaal""}, {""en"" : ""Concert Hall""}, {""fr"" : ""Salle pour concert""}, {""de"" : ""Konzertsaal""}, {""es"" : ""Sala de conciertos""}, {""ca"" : ""Sala de concerts""}]";[479]
+69;"[{""nl"" : ""Bos""}, {""en"" : ""Forest""}, {""fr"" : ""Forêt""}, {""de"" : ""Wald""}, {""es"" : ""Bosque""}, {""ca"" : ""Bosc""}]";
+70;"[{""nl"" : ""Golf""}, {""fr"" : ""Golf""}, {""de"" : ""Golfplatz""}, {""es"" : ""Campo de golf""}, {""ca"" : ""Camp de golf""}, {""en"" : ""Golf Course""}]";
+71;"[{""nl"" : ""Kayak - Kano""}, {""en"" : ""Kayak - Cano""}, {""fr"" : ""Canoé ou Kayak""}, {""de"" : ""Kajak - Cano""}, {""es"" : ""Kayak – Canoa""}, {""ca"" : ""Kayak – Canoa""}]";
+72;"[{""nl"" : ""Kayak- Kano verhuur""}, {""en"" : ""Kayak - Cano rental""}, {""fr"" : ""Canoé ou Kayak à louer""}, {""de"" : ""Kajak - Cano Miete""}, {""es"" : ""Alquiler de Kayak – Canoa""}, {""ca"" : ""Lloguer de Kayak – Canoa""}]";
+73;"[{""nl"" : ""Aanmeerplaats""}, {""en"" : ""Kayak - Cano access point""}, {""fr"" : ""Point d'accées de kayak ou canoé""}, {""de"" : ""Kajak - Cano Zugangspunkt""}, {""es"" : ""Punto de acceso Kayak – Canoa""}, {""ca"" : ""Punt d'accés Kayak – Canoa""}]";
+74;"[{""nl"" : ""Sterrenwacht""}, {""en"" : ""Observatory""}, {""fr"" : ""Observatoire d'étoiles""}, {""de"" : ""Observatorium""}, {""es"" : ""Observatorio""}, {""ca"" : ""Observatori""}]";
+75;"[{""de"" : ""Filmtheater""}, {""es"" : ""Cine""}, {""ca"" : ""Cinema""}, {""nl"" : ""Filmzaal""}, {""en"" : ""Movie theatre""}, {""fr"" : ""Cinéma""}]";
+76;"[{""nl"" : ""Opera""}, {""en"" : ""Opera""}, {""fr"" : ""Opéra""}, {""de"" : ""Oper""}, {""es"" : ""Opera""}, {""ca"" : ""Opera""}]";
+78;"[{""nl"" : ""Avonturenpark""}, {""en"" : ""Adventurpark""}, {""fr"" : ""Parc d'aventure""}, {""de"" : ""Adventurpark""}, {""es"" : ""Parque de aventuras""}, {""ca"" : ""Parc d'aventures""}]";
+79;"[{""nl"" : ""Park""}, {""en"" : ""Park""}, {""fr"" : ""Parc""}, {""de"" : ""Park""}, {""es"" : ""Parque""}, {""ca"" : ""Parc""}]";[81]
+80;"[{""nl"" : ""Natuurpark""}, {""en"" : ""Nature park""}, {""fr"" : ""Parc naturel""}, {""de"" : ""Naturpark""}, {""es"" : ""Parque natural""}, {""ca"" : ""Parc natural""}]";[82]
+81;"[{""nl"" : ""Stadspark""}, {""en"" : ""City park""}, {""fr"" : ""Parc urbain""}, {""de"" : ""Stadtpark""}, {""es"" : ""Parque urbano""}, {""ca"" : ""Parc urbà""}]";
+82;"[{""nl"" : ""Nationaal park""}, {""en"" : ""National park""}, {""fr"" : ""Parc national""}, {""de"" : ""Nationalpark""}, {""es"" : ""Parque nacional""}, {""ca"" : ""Parc nacional""}]";
+83;"[{""nl"" : ""Speelplaats""}, {""en"" : ""Play-centre""}, {""fr"" : ""Cours pour jouer""}, {""de"" : ""Spiel-Mitte""}, {""es"" : ""Centro lúdico""}, {""ca"" : ""Centre lúdic""}]";
+84;"[{""nl"" : ""Speelplein""}, {""en"" : ""Play-ground""}, {""fr"" : ""Plaine pour jouer""}, {""de"" : ""Spielplatz""}, {""es"" : ""Patio de recreo""}, {""ca"" : ""Pati d'esbarjo""}]";
+85;"[{""nl"" : ""Waterval""}, {""en"" : ""Waterfall""}, {""fr"" : ""Cascade""}, {""de"" : ""Wasserfall""}, {""es"" : ""Cascada""}, {""ca"" : ""Cascada""}]";
+88;"[{""nl"" : ""Sportplein""}, {""en"" : ""Sport-ground""}, {""fr"" : ""Plaine sportive""}, {""de"" : ""Sport-Boden""}, {""es"" : ""Campo deportivo""}, {""ca"" : ""Camp esportiu""}]";
+91;"[{""nl"" : ""Relaxatie centrum""}, {""en"" : ""Relaxation-centre""}, {""fr"" : ""Centre de relaxation""}, {""de"" : ""Entspannung-Mitte""}, {""es"" : ""Centro de relajación""}, {""ca"" : ""Centre de relaxació""}]";
+92;"[{""nl"" : ""Massagecentrum""}, {""en"" : ""Massage-centre""}, {""fr"" : ""Centre pour massage""}, {""de"" : ""Massage-Mitte""}, {""es"" : ""Centro de masajes""}, {""ca"" : ""Centre de massatges""}]";
+93;"[{""nl"" : ""Sauna""}, {""en"" : ""Sauna""}, {""fr"" : ""Sauna""}, {""de"" : ""Sauna""}, {""es"" : ""Sauna""}, {""ca"" : ""Sauna""}]";
+94;"[{""nl"" : ""Spa""}, {""en"" : ""Spa""}, {""fr"" : ""Spa""}, {""de"" : ""Badekurort""}, {""es"" : ""Balneario""}, {""ca"" : ""Balneari""}]";
+96;"[{""nl"" : ""Theater""}, {""en"" : ""Theatre""}, {""fr"" : ""Théatre""}, {""de"" : ""Theater""}, {""es"" : ""Teatro""}, {""ca"" : ""Teatre""}]";
+97;"[{""nl"" : ""Sportcomplex""}, {""en"" : ""Sportcomplex""}, {""fr"" : ""Complexe sportif""}, {""de"" : ""Sportkomplex""}, {""es"" : ""Complejo deportivo""}, {""ca"" : ""Complex esportiu""}]";
+98;"[{""en"" : ""Sports Centre""}, {""fr"" : ""Espaces sportifs""}, {""nl"" : ""Sportcomplex""}, {""de"" : ""Sportzentrum""}, {""es"" : ""Centro deportivo""}, {""ca"" : ""Centre esportiu""}]";
+99;"[{""nl"" : ""Voetbalveld""}, {""en"" : ""Soccerfield""}, {""fr"" : ""Terrain de foot""}, {""de"" : ""Fußballplatz""}, {""es"" : ""Campo de fútbol""}, {""ca"" : ""Camp de futbol""}]";
+100;"[{""nl"" : ""Muurklimmen""}, {""en"" : ""Wallclimbing""}, {""fr"" : ""Mur d'escalade""}, {""de"" : ""Wandklettern""}, {""es"" : ""Rocódromo""}, {""ca"" : ""Rocòdrom""}]";
+101;"[{""nl"" : ""Rotsklimmen""}, {""en"" : ""Rock Climbing""}, {""fr"" : ""Rochers d'escalade""}, {""de"" : ""Felsen-Klettern""}, {""es"" : ""Escalada""}, {""ca"" : ""Escalada""}]";
+102;"[{""nl"" : ""Zwembad""}, {""en"" : ""Swimmingpool""}, {""fr"" : ""Piscine""}, {""de"" : ""Schwimmbad""}, {""es"" : ""Piscina""}, {""ca"" : ""Piscina""}]";
+103;"[{""nl"" : ""Waterpark""}, {""en"" : ""Waterpark""}, {""fr"" : ""Parc hydraulique""}, {""de"" : ""Wasserpark""}, {""es"" : ""Parque acuático""}, {""ca"" : ""Parc aquàtic""}]";
+106;"[{""nl"" : ""Museum""}, {""en"" : ""Museum""}, {""fr"" : ""Musée""}, {""de"" : ""Museum""}, {""es"" : ""Museo""}, {""ca"" : ""Museu""}]";[107, 108, 109, 110, 111, 112]
+107;"[{""nl"" : ""Natuurmuseum""}, {""en"" : ""Natural history museum""}, {""fr"" : ""Musée naturel""}, {""de"" : ""Museum des Naturgeschichte""}, {""es"" : ""Museo de historia natural""}, {""ca"" : ""Museu d'història natural""}]";
+108;"[{""nl"" : ""Archeologisch museum""}, {""en"" : ""Archeological museum""}, {""fr"" : ""Musée d'archéologie""}, {""de"" : ""Archäologisches museum""}, {""es"" : ""Museo Arqueológico""}, {""ca"" : ""Museu Arqueològic""}]";
+109;"[{""nl"" : ""Wetenschappelijk museum""}, {""en"" : ""Science museum""}, {""fr"" : ""Musée scientifique""}, {""de"" : ""Wissenschaftsmuseum""}, {""es"" : ""Museo de la Ciencia""}, {""ca"" : ""Museu de la Ciència""}]";
+110;"[{""nl"" : ""Kunstmuseum""}, {""en"" : ""Art museum""}, {""fr"" : ""Musée d'art""}, {""de"" : ""Kunstmuseum""}, {""es"" : ""Museo de arte""}, {""ca"" : ""Museu d'art""}]";
+111;"[{""nl"" : ""Volksmuseum""}, {""en"" : ""Flok museum""}, {""fr"" : ""Musée national""}, {""de"" : ""Volksmuseum""}, {""es"" : ""Museo folclórico""}, {""ca"" : ""Museu folklòric""}]";
+112;"[{""nl"" : ""Geschiedkundig museum""}, {""en"" : ""History museum""}, {""fr"" : ""Musée d'histoire""}, {""de"" : ""Geschichtenmuseum""}, {""es"" : ""Museo histórico""}, {""ca"" : ""Museu històric""}]";
+113;"[{""nl"" : ""Zoo""}, {""en"" : ""Zoo""}, {""fr"" : ""Zoo""}, {""de"" : ""Zoo""}, {""es"" : ""Parque zoológico""}, {""ca"" : ""Parc zoològic""}]";
+114;"[{""nl"" : ""Safaripark""}, {""en"" : ""Safari-park""}, {""fr"" : ""Parc de safari""}, {""de"" : ""Safari-Park""}, {""es"" : ""Parque de Safari""}, {""ca"" : ""Parc de Safari""}]";
+115;"[{""nl"" : ""Themapark""}, {""en"" : ""Amusement Park""}, {""fr"" : ""Parc thématique""}, {""de"" : ""Vergnügungspark""}, {""es"" : ""Parque de atracciones""}, {""ca"" : ""Parc d'atraccions""}]";
+116;"[{""nl"" : ""Gevaarlijk punt""}, {""en"" : ""Danger point""}, {""fr"" : ""Points dangereux""}, {""de"" : ""Gefahrenpunkt""}, {""es"" : ""Punto peligroso""}, {""ca"" : ""Punt perillós""}]";
+117;"[{""nl"" : ""Route einde""}, {""en"" : ""Route end""}, {""fr"" : ""Fin de route""}, {""de"" : ""Wegende""}, {""es"" : ""Final de la ruta""}, {""ca"" : ""Final de la ruta""}]";
+118;"[{""nl"" : ""Navigatie aanwijzing""}, {""en"" : ""Navigation instruction""}, {""fr"" : ""Indication pour navigation""}, {""de"" : ""Navigationsanweisung""}, {""es"" : ""Instrucción de navegación""}, {""ca"" : ""Instrucció de navegació""}]";
+119;"[{""nl"" : ""Route kruising""}, {""en"" : ""Route crossing""}, {""fr"" : ""Croisement""}, {""de"" : ""Wegüberfahrt""}, {""es"" : ""Intersección""}, {""ca"" : ""Intersecció""}]";
+120;"[{""nl"" : ""Aanwijzing""}, {""en"" : ""Signpost""}, {""fr"" : ""Indication""}, {""de"" : ""Wegweiser""}, {""es"" : ""Señal""}, {""ca"" : ""Senyal""}]";
+121;"[{""nl"" : ""Verkeersbord""}, {""en"" : ""Traffic sign""}, {""fr"" : ""Pannaux de signalisation""}, {""de"" : ""Verkehrszeichen""}, {""es"" : ""Señal de tráfico""}, {""ca"" : ""Senyal de tràfic""}]";
+122;"[{""nl"" : ""Verkeerslicht""}, {""en"" : ""Traffic lights""}, {""fr"" : ""Feux de signalisation""}, {""de"" : ""Ampeln""}, {""es"" : ""Semáforo""}, {""ca"" : ""Semàfor""}]";
+123;"[{""nl"" : ""Route start""}, {""en"" : ""Route start""}, {""fr"" : ""Début de route""}, {""de"" : ""Weganfang""}, {""es"" : ""Inicio de la Ruta""}, {""ca"" : ""Inici de la Ruta""}]";
+124;"[{""nl"" : ""Landmark""}, {""en"" : ""Landmark""}, {""fr"" : ""Element marquant dans la nature""}, {""de"" : ""Grenzstein""}, {""es"" : ""Punto destacado""}, {""ca"" : ""Punt destacat""}]";[122, 127, 128, 136, 143, 151, 152, 164, 168, 183, 186, 187, 237, 265, 349, 445, 448, 516, 565, 567]
+125;"[{""nl"" : ""Begraafplaats""}, {""fr"" : ""Cimetière""}, {""de"" : ""Kirchhof""}, {""es"" : ""Cementerio""}, {""ca"" : ""Cementiri""}, {""en"" : ""Cemetery""}]";[335, 374]
+126;"[{""nl"" : ""Gebouw""}, {""en"" : ""Building""}, {""fr"" : ""Bâtiment""}, {""de"" : ""Gebäude""}, {""es"" : ""Edificio""}, {""ca"" : ""Edifici""}]";[16, 24, 32, 36, 41, 47, 48, 52, 55, 56, 68, 74, 75, 76, 96, 106, 127, 128, 129, 130, 133, 134, 135, 136, 137, 140, 141, 142, 143, 149, 150, 153, 155, 157, 158, 159, 160, 161, 162, 230, 235, 237, 238, 247, 259, 261, 265, 275, 280, 295, 296, 307, 308, 313, 316, 317, 327, 329, 336, 342, 348, 364, 367, 371, 393, 394, 400, 418, 427, 444, 457, 465, 466, 467, 470, 477, 485, 501, 504, 510, 511, 519]
+127;"[{""nl"" : ""Abdij""}, {""en"" : ""Abbey""}, {""fr"" : ""Abbaye""}, {""de"" : ""Abtei""}, {""es"" : ""Abadía""}, {""ca"" : ""Abadia""}]";
+128;"[{""nl"" : ""Kasteel""}, {""en"" : ""Castle""}, {""fr"" : ""Château""}, {""de"" : ""Schloss""}, {""es"" : ""Castillo""}, {""ca"" : ""Castell""}]";[133]
+129;"[{""nl"" : ""Kapel""}, {""en"" : ""Chapel""}, {""fr"" : ""Chapelle""}, {""de"" : ""Kapelle""}, {""es"" : ""Capilla""}, {""ca"" : ""Capella""}]";
+130;"[{""fr"" : ""Monastère""}, {""de"" : ""Kloster""}, {""es"" : ""Monasterio""}, {""ca"" : ""Monestir""}, {""nl"" : ""Klooster""}, {""en"" : ""Monastery""}]";
+131;"[{""nl"" : ""Fabriek""}, {""en"" : ""Factory""}, {""fr"" : ""Usine""}, {""de"" : ""Fabrik""}, {""es"" : ""Fábrica""}, {""ca"" : ""Fàbrica""}]";
+132;"[{""nl"" : ""Bedrijf""}, {""en"" : ""Company""}, {""fr"" : ""Entreprise""}, {""es"" : ""Empresa""}, {""ca"" : ""Empresa""}, {""de"" : ""Unternehmen""}]";
+133;"[{""fr"" : ""Château fort""}, {""de"" : ""Festung""}, {""es"" : ""Fortaleza""}, {""ca"" : ""Fortalesa""}, {""nl"" : ""Burcht""}, {""en"" : ""Fortress""}]";[465]
+134;"[{""nl"" : ""Koepel""}, {""en"" : ""Dome""}, {""fr"" : ""Tourelle""}, {""de"" : ""Haube""}, {""es"" : ""Cúpula""}, {""ca"" : ""Cúpula""}]";
+135;"[{""nl"" : ""Whisky distilleerderij""}, {""en"" : ""Whisky distillary""}, {""fr"" : ""Distillerie de whisky""}, {""de"" : ""Whiskybrennerei""}, {""es"" : ""Destilería de Whisky""}, {""ca"" : ""Destil·leria de Whisky""}]";
+136;"[{""fr"" : ""Building""}, {""de"" : ""Hohes Gebäude""}, {""es"" : ""Edificio alto""}, {""ca"" : ""Edifici alt""}, {""nl"" : ""Hoogbouw""}, {""en"" : ""High-rise building""}]";
+137;"[{""nl"" : ""Huis""}, {""en"" : ""House""}, {""fr"" : ""Maison""}, {""de"" : ""Haus""}, {""es"" : ""Casa""}, {""ca"" : ""Casa""}]";
+138;"[{""nl"" : ""Fontein""}, {""en"" : ""Fountain""}, {""fr"" : ""Fontaine""}, {""de"" : ""Springbrunnen""}, {""es"" : ""Fuente""}, {""ca"" : ""Font""}]";
+139;"[{""nl"" : ""Industrieterrein""}, {""en"" : ""Industrial area""}, {""fr"" : ""Terrain industriel""}, {""de"" : ""Industriegebiet""}, {""es"" : ""Zona Industrial""}, {""ca"" : ""Zona Industrial""}]";
+140;"[{""nl"" : ""Postgebouw""}, {""en"" : ""Postal office""}, {""fr"" : ""Poste""}, {""de"" : ""Postbüro""}, {""es"" : ""Oficina de correos""}, {""ca"" : ""Oficina de correus""}]";
+141;"[{""nl"" : ""Ruine""}, {""en"" : ""Ruin""}, {""fr"" : ""Ruine""}, {""de"" : ""Ruine""}, {""es"" : ""Ruinas""}, {""ca"" : ""Ruïnes""}]";
+142;"[{""nl"" : ""Synagoge""}, {""en"" : ""Synagoge""}, {""fr"" : ""Synagoge""}, {""de"" : ""Synagoge""}, {""es"" : ""Sinagoga""}, {""ca"" : ""Sinagoga""}]";
+143;"[{""nl"" : ""Belfort""}, {""en"" : ""Belfrey""}, {""de"" : ""Belfried""}, {""es"" : ""Campanario""}, {""ca"" : ""Campanar""}, {""fr"" : ""beffroi""}]";
+144;"[{""nl"" : ""Wegwijzer""}, {""en"" : ""Signpost""}, {""fr"" : ""Poteau indicateur""}, {""de"" : ""Wegweiser""}, {""es"" : ""Señal""}, {""ca"" : ""Senyal""}]";
+145;"[{""nl"" : ""Gebedsplaats""}, {""en"" : ""Place of worship""}, {""fr"" : ""Endroits pour prier""}, {""de"" : ""Ort der Verehrung""}, {""es"" : ""Lugar de culto""}, {""ca"" : ""Lloc de culte""}]";[129, 130, 131, 142, 158, 159, 160, 161, 162, 164, 238, 382, 450, 466]
+146;"[{""nl"" : ""Windmolen""}, {""en"" : ""Windmill""}, {""fr"" : ""Moulins à vent""}, {""de"" : ""Windmühle""}, {""es"" : ""Molino de viento""}, {""ca"" : ""Molí de vent""}]";[147, 148]
+147;"[{""nl"" : ""Windmolen (Oud)""}, {""en"" : ""Windmill (old)""}, {""fr"" : ""Vieux moulins à vent""}, {""de"" : ""Windmühlen (altes)""}, {""es"" : ""Molino de viento antiguo""}, {""ca"" : ""Molí de vent antic""}]";
+148;"[{""nl"" : ""Windmolen (Nieuw)""}, {""en"" : ""Windmill (new)""}, {""fr"" : ""Nouveaux moulins à vent""}, {""de"" : ""Windmühlen (neues)""}, {""es"" : ""Molino de viento nuevo""}, {""ca"" : ""Molí de vent nou""}]";
+149;"[{""nl"" : ""Stadhuis""}, {""en"" : ""Town hall""}, {""fr"" : ""Hôtel de ville""}, {""de"" : ""Rathaus""}, {""es"" : ""Ayuntamiento""}, {""ca"" : ""Ajuntament""}]";
+150;"[{""nl"" : ""Politiestation""}, {""en"" : ""Police station""}, {""fr"" : ""Poste de police""}, {""de"" : ""Polizei""}, {""es"" : ""Comisaría de policía""}, {""ca"" : ""Comissaria de policia""}]";
+151;"[{""nl"" : ""Toren""}, {""en"" : ""Tower""}, {""fr"" : ""Tours""}, {""de"" : ""Turm""}, {""es"" : ""Torre""}, {""ca"" : ""Torre""}]";[153, 155, 156, 274, 276, 277, 289, 317, 513]
+152;"[{""nl"" : ""Lichtbaken""}, {""en"" : ""Light beacon""}, {""fr"" : ""Rampe""}, {""de"" : ""Befeuerung""}, {""es"" : ""Baliza""}, {""ca"" : ""Balisa""}]";
+153;"[{""nl"" : ""Vuurtoren""}, {""en"" : ""Lighthouse""}, {""fr"" : ""Tours de feux""}, {""de"" : ""Leuchtturm""}, {""es"" : ""Faro""}, {""ca"" : ""Far""}]";
+154;"[{""nl"" : ""Seinpost""}, {""en"" : ""Signalpost""}, {""fr"" : ""Poste pour télégraphe""}, {""de"" : ""Signalpost""}, {""es"" : ""Señal""}, {""ca"" : ""Senyal""}]";
+155;"[{""nl"" : ""Watertoren""}, {""en"" : ""Watertower""}, {""fr"" : ""Château d'eau""}, {""de"" : ""Wasserturm""}, {""es"" : ""Torre de agua""}, {""ca"" : ""Torre d'aigua""}]";
+156;"[{""nl"" : ""Zendmast""}, {""en"" : ""Wireless mast""}, {""fr"" : ""Pylône d'antenne""}, {""de"" : ""Drahtloser Mast""}, {""es"" : ""Antena""}, {""ca"" : ""Antena""}]";
+157;"[{""nl"" : ""Kerk""}, {""en"" : ""Church""}, {""fr"" : ""Eglise""}, {""de"" : ""Kirche""}, {""es"" : ""Iglesia""}, {""ca"" : ""Església""}]";
+158;"[{""nl"" : ""Moskee""}, {""en"" : ""Mosque""}, {""fr"" : ""Mosquée""}, {""de"" : ""Moschee""}, {""es"" : ""Mezquita""}, {""ca"" : ""Mesquita""}]";
+159;"[{""nl"" : ""Tempel""}, {""en"" : ""Temple""}, {""fr"" : ""Temple""}, {""de"" : ""Tempel""}, {""es"" : ""Templo""}, {""ca"" : ""Temple""}]";[160, 161, 162]
+160;"[{""nl"" : ""Hindoetempel""}, {""en"" : ""Hindu temple""}, {""fr"" : ""Temple indoux""}, {""de"" : ""Hinduistischer Tempel""}, {""es"" : ""Templo hindú""}, {""ca"" : ""Temple hindú""}]";
+161;"[{""nl"" : ""Boeddha tempel""}, {""en"" : ""Buddha temple""}, {""fr"" : ""Temple bouddha""}, {""de"" : ""Buddha-Tempel""}, {""es"" : ""Templo budista""}, {""ca"" : ""Temple budista""}]";
+162;"[{""nl"" : ""Vrijmetselaarstempel""}, {""en"" : ""Freemaçon temple""}, {""fr"" : ""Temple por francs maçons""}, {""de"" : ""Freimaurerei Tempel""}, {""es"" : ""Templo francmasón""}, {""ca"" : ""Temple Francmaçó""}]";
+163;"[{""nl"" : ""Hunebed""}, {""en"" : ""Cairn""}, {""fr"" : ""Dolmen""}, {""de"" : ""Steinmännchen""}, {""es"" : ""Hito""}, {""ca"" : ""Fita""}]";
+164;"[{""nl"" : ""Kruis""}, {""en"" : ""Cross""}, {""fr"" : ""Croix""}, {""de"" : ""Kreuz""}, {""es"" : ""Cruz""}, {""ca"" : ""Creu""}]";
+165;"[{""nl"" : ""Monument""}, {""en"" : ""Monument""}, {""fr"" : ""Monument""}, {""de"" : ""Denkmal""}, {""es"" : ""Monumento""}, {""ca"" : ""Monument""}]";[166]
+166;"[{""nl"" : ""Standbeeld""}, {""en"" : ""Statue""}, {""fr"" : ""Statue""}, {""de"" : ""Statue""}, {""es"" : ""Estatua""}, {""ca"" : ""Estàtua""}]";
+167;"[{""fr"" : ""Panorama""}, {""de"" : ""Panorama""}, {""es"" : ""Panorama""}, {""ca"" : ""Panorama""}, {""nl"" : ""Panorama""}, {""en"" : ""Panorama""}]";[172, 173, 289, 290, 291, 513, 521]
+168;"[{""nl"" : ""Boom""}, {""en"" : ""Tree""}, {""fr"" : ""Arbre""}, {""de"" : ""Baum""}, {""es"" : ""Arbol""}, {""ca"" : ""Arbre""}]";
+169;"[{""nl"" : ""Natuurfenomeen""}, {""en"" : ""Natural phenomena""}, {""fr"" : ""Phénomène naturel""}, {""de"" : ""Natürliche Phänomene""}, {""es"" : ""Fenómeno natural""}, {""ca"" : ""Fenomen natural""}]";
+170;"[{""nl"" : ""Geologisch punt""}, {""en"" : ""Geological POI""}, {""fr"" : ""Point géologique""}, {""de"" : ""Geologischer POI""}, {""es"" : ""Punto de interés geológico""}, {""ca"" : ""Punt d'interès geològic""}]";
+172;"[{""nl"" : ""Dorpszicht""}, {""en"" : ""Village view""}, {""fr"" : ""Vue village""}, {""de"" : ""Dorfansicht""}, {""es"" : ""Vista de pueblo""}, {""ca"" : ""Vista de poble""}]";
+173;"[{""nl"" : ""Stadszicht""}, {""en"" : ""Cityscape""}, {""fr"" : ""Vue ville""}, {""de"" : ""Stadtbild""}, {""es"" : ""Paisaje urbano""}, {""ca"" : ""Paisatge urbà""}]";
+174;"[{""nl"" : ""Rustplaats""}, {""en"" : ""Place to rest""}, {""fr"" : ""Endroits pour se reposer""}, {""de"" : ""Platz zum Rest""}, {""es"" : ""Lugar de descanso""}, {""ca"" : ""Lloc de descans""}]";[455]
+175;"[{""nl"" : ""Karst verschijnsel""}, {""en"" : ""Karst phenomena""}, {""fr"" : ""Falaise""}, {""de"" : ""Karstphänomene""}, {""es"" : ""Relieve cárstico""}, {""ca"" : ""Relleu càrstic""}]";
+177;"[{""nl"" : ""Groeve""}, {""en"" : ""Quarry""}, {""fr"" : ""Carrière""}, {""de"" : ""Steinbruch""}, {""es"" : ""Cantera""}, {""ca"" : ""Pedrera""}]";
+178;"[{""nl"" : ""Doline""}, {""en"" : ""Dolina""}, {""fr"" : ""Doline""}, {""de"" : ""Dolina""}, {""es"" : ""Dolina""}, {""ca"" : ""Dolina""}]";
+180;"[{""nl"" : ""Estuarium""}, {""en"" : ""Estuary""}, {""fr"" : ""Estuaire""}, {""de"" : ""Mündung""}, {""es"" : ""Estuario""}, {""ca"" : ""Estuari""}]";
+181;"[{""nl"" : ""Duinen""}, {""en"" : ""Dunes""}, {""fr"" : ""Dunes""}, {""de"" : ""Dünen""}, {""es"" : ""Dunas""}, {""ca"" : ""Dunes""}]";
+183;"[{""nl"" : ""Brug""}, {""en"" : ""Bridge""}, {""fr"" : ""Pont""}, {""de"" : ""Brücke""}, {""es"" : ""Puente""}, {""ca"" : ""Pont""}]";
+184;"[{""nl"" : ""Aquaduct""}, {""en"" : ""Aqueduct""}, {""fr"" : ""Aqueduc""}, {""de"" : ""Aquaduct""}, {""es"" : ""Acueducto""}, {""ca"" : ""Aqüeducte""}]";
+185;"[{""nl"" : ""Tunnel""}, {""en"" : ""Tunnel""}, {""fr"" : ""Tunnel""}, {""de"" : ""Tunnel""}, {""es"" : ""Túnel""}, {""ca"" : ""Túnel""}]";
+186;"[{""nl"" : ""Dam""}, {""en"" : ""Dam""}, {""fr"" : ""Barrage ordinaire""}, {""de"" : ""Verdammung""}, {""es"" : ""Presa""}, {""ca"" : ""Presa""}]";
+187;"[{""nl"" : ""Stuw""}, {""en"" : ""Weir""}, {""fr"" : ""Barrage en béton""}, {""de"" : ""Wehr""}, {""es"" : ""Vertedero hidráulico""}, {""ca"" : ""Abocador hidràulic""}]";
+188;"[{""nl"" : ""Sluis""}, {""en"" : ""Sluis""}, {""fr"" : ""Ecluse""}, {""de"" : ""Schleuse""}, {""es"" : ""Esclusa""}, {""ca"" : ""Resclosa""}]";
+189;"[{""nl"" : ""Landschapselement""}, {""en"" : ""Landscape element""}, {""fr"" : ""Paysage""}, {""de"" : ""Landschaftselement""}, {""es"" : ""Elemento del paisaje""}, {""ca"" : ""Element del paisatge""}]";[12, 20, 22, 40, 58, 69, 70, 79, 81, 82, 85, 124, 138, 145, 146, 163, 166, 167, 168, 169, 170, 172, 173, 175, 177, 178, 180, 181, 186, 187, 191, 192, 193, 194, 195, 196, 197, 203, 206, 207, 212, 213, 218, 219, 239, 240, 249, 250, 251, 256, 291, 292, 293, 300, 318, 326, 337, 354, 361, 362, 365, 366, 369, 374, 378, 381, 389, 392, 403, 421, 423, 425, 428, 429, 446, 449, 450, 451, 452, 454, 459, 469, 472, 473, 475, 476, 482, 483, 484, 487, 488, 492, 494, 495, 496, 497, 502, 503, 506, 507, 512, 514, 533, 541, 557, 558, 566, 571]
+190;"[{""nl"" : ""Bergtop""}, {""en"" : ""Mountain Peak""}, {""fr"" : ""Sommet""}, {""de"" : ""Gebirgsspitze""}, {""es"" : ""Pico de montaña""}, {""ca"" : ""Pic de muntanya""}]";
+191;"[{""fr"" : ""Rivière""}, {""de"" : ""Fluss""}, {""es"" : ""Río""}, {""ca"" : ""Riu""}, {""nl"" : ""Rivier""}, {""en"" : ""River""}]";
+192;"[{""nl"" : ""Meer""}, {""en"" : ""Lake""}, {""fr"" : ""Lac""}, {""de"" : ""See""}, {""es"" : ""Lago""}, {""ca"" : ""Llac""}]";
+193;"[{""nl"" : ""Kanaal""}, {""en"" : ""Canal""}, {""fr"" : ""Canale""}, {""de"" : ""Kanal""}, {""es"" : ""Canal""}, {""ca"" : ""Canal""}]";
+194;"[{""nl"" : ""Grot""}, {""en"" : ""Cave""}, {""fr"" : ""Grotte""}, {""de"" : ""Höhle""}, {""es"" : ""Cueva""}, {""ca"" : ""Cova""}]";
+195;"[{""nl"" : ""Canyon""}, {""en"" : ""Canyon""}, {""fr"" : ""Canyon""}, {""de"" : ""Schlucht""}, {""es"" : ""Cañón""}, {""ca"" : ""Congost""}]";
+196;"[{""nl"" : ""Vallei""}, {""en"" : ""Valley""}, {""fr"" : ""Vallée""}, {""de"" : ""Tal""}, {""es"" : ""Valle""}, {""ca"" : ""Vall""}]";
+197;"[{""nl"" : ""Doorbraakdal""}, {""en"" : ""Break trough valley""}, {""fr"" : ""Vallée""}, {""de"" : ""Durchbruchstal""}, {""es"" : ""Valle""}, {""ca"" : ""Vall""}]";
+198;"[{""nl"" : ""Gemeentegrens""}, {""en"" : ""Village border""}, {""fr"" : ""Limites communales""}, {""de"" : ""Dorfrand""}, {""es"" : ""Límite municipal""}, {""ca"" : ""Límit municipal""}]";
+199;"[{""nl"" : ""Landsgrens""}, {""en"" : ""Country border""}, {""fr"" : ""Frontières""}, {""de"" : ""Landrand""}, {""es"" : ""Frontera""}, {""ca"" : ""Frontera""}]";
+200;"[{""nl"" : ""Provinciegrens""}, {""en"" : ""Province border""}, {""fr"" : ""Limites provinciales""}, {""de"" : ""Provinzrand""}, {""es"" : ""Límite de provincia""}, {""ca"" : ""Límit de província""}]";
+201;"[{""nl"" : ""Administratieve grens""}, {""en"" : ""Administrative border""}, {""fr"" : ""Limites administratives""}, {""de"" : ""Verwaltungsrand""}, {""es"" : ""Frontera administrativa""}, {""ca"" : ""Frontera administrativa""}]";
+202;"[{""nl"" : ""Administratief centrum""}, {""en"" : ""Administrative centre""}, {""fr"" : ""Centre administratif""}, {""de"" : ""Verwaltungsstelle""}, {""es"" : ""Centro administrativo""}, {""ca"" : ""Centre administratiu""}]";
+203;"[{""nl"" : ""Cuesta""}, {""en"" : ""Cuesta""}, {""fr"" : ""Cuesta""}, {""de"" : ""Cuesta""}, {""es"" : ""Cuesta""}, {""ca"" : ""Cuesta""}]";
+204;"[{""nl"" : ""Gemeentecentrum""}, {""en"" : ""Village centre""}, {""fr"" : ""Centre communal""}, {""de"" : ""Dorfmitte""}, {""es"" : ""Centro de pueblo""}, {""ca"" : ""Centre de poble""}]";
+205;"[{""nl"" : ""Hoofdstad""}, {""en"" : ""Capital""}, {""fr"" : ""Capitale""}, {""de"" : ""Hauptstadt""}, {""es"" : ""Capital""}, {""ca"" : ""Capital""}]";
+206;"[{""en"" : ""Landscape border""}, {""fr"" : ""Frontières naturelles""}, {""de"" : ""Landschaftsrand""}, {""es"" : ""Frontera de paisaje""}, {""ca"" : ""Frontera de paisatge""}, {""nl"" : ""Landschapsgrens""}]";
+207;"[{""en"" : ""Landscape centre""}, {""fr"" : ""Centre naturel""}, {""de"" : ""Landschaftsmitte""}, {""es"" : ""Centro de paisaje""}, {""ca"" : ""Centre de paisatge""}, {""nl"" : ""Landschapscentrum""}]";
+208;"[{""en"" : ""Park and ride zone""}, {""fr"" : ""Park And Ride""}, {""de"" : ""Park und Fahrzone""}, {""es"" : ""Park and ride""}, {""ca"" : ""Park and ride""}, {""nl"" : ""Park and ride""}]";
+209;"[{""nl"" : ""Regio grens""}, {""en"" : ""Regio border""}, {""fr"" : ""Limites régionales""}, {""de"" : ""Regio-Rand""}, {""es"" : ""Frontera regional""}, {""ca"" : ""Frontera regional""}]";
+210;"[{""nl"" : ""Regio centrum""}, {""en"" : ""Regio centre""}, {""fr"" : ""Centre régional""}, {""de"" : ""Regio-Mitte""}, {""es"" : ""Centro regional""}, {""ca"" : ""Centre regional""}]";
+212;"[{""nl"" : ""Tafelberg""}, {""en"" : ""Tablemountain""}, {""fr"" : ""Mont de table""}, {""de"" : ""Tafelberg""}, {""es"" : ""Montaña de mesa""}, {""ca"" : ""Muntanya de taula""}]";
+213;"[{""nl"" : ""Plateau""}, {""en"" : ""Plateau""}, {""fr"" : ""Plateau""}, {""de"" : ""Hochebene""}, {""es"" : ""Meseta""}, {""ca"" : ""Altiplà""}]";
+214;"[{""nl"" : ""Gebeurtenis""}, {""en"" : ""Event""}, {""fr"" : ""Evènement""}, {""de"" : ""Ereignis""}, {""es"" : ""Evento""}, {""ca"" : ""Esdeveniment""}]";[215, 216, 236, 303, 397, 424, 515, 527]
+215;"[{""nl"" : ""Historische gebeurtenis""}, {""en"" : ""Historical event""}, {""fr"" : ""Evènement historique""}, {""de"" : ""Historisches Ereignis""}, {""es"" : ""Evento histórico""}, {""ca"" : ""Esdeveniment històric""}]";[216, 527]
+216;"[{""nl"" : ""Veldslag""}, {""en"" : ""Battlefield""}, {""fr"" : ""Bataille""}, {""de"" : ""Schlachtfeld""}, {""es"" : ""Campo de batalla""}, {""ca"" : ""Camp de batalla""}]";
+217;"[{""nl"" : ""Dijk""}, {""en"" : ""Dike""}, {""fr"" : ""Digue""}, {""de"" : ""Deich""}, {""es"" : ""Dique""}, {""ca"" : ""dic""}]";
+218;"[{""nl"" : ""Vulkaan""}, {""en"" : ""Vulcano""}, {""fr"" : ""Volcan""}, {""de"" : ""Vulkan""}, {""es"" : ""Volcán""}, {""ca"" : ""Volcà""}]";
+219;"[{""nl"" : ""Vijver""}, {""fr"" : ""Etang""}, {""de"" : ""Teich""}, {""en"" : ""Pond""}, {""es"" : ""Estanque""}, {""ca"" : ""Estany""}]";
+220;"[{""nl"" : ""Wijk""}, {""en"" : ""Burrough""}, {""fr"" : ""Refuge""}, {""de"" : ""Stadtviertel""}]";
+221;"[{""nl"" : ""Wijkgrens""}, {""en"" : ""Burrough border""}, {""fr"" : ""Limites du refuge""}, {""de"" : ""Stadtviertel rand""}]";
+222;"[{""nl"" : ""Wijkcentrum""}, {""en"" : ""Burrough centre""}, {""fr"" : ""Foyer socio-culturel""}, {""de"" : ""Stadtviertel Mitte""}]";
+223;"[{""nl"" : ""Markt""}, {""en"" : ""Market""}, {""fr"" : ""Marché""}, {""de"" : ""Markt""}, {""es"" : ""Mercado""}, {""ca"" : ""Mercat""}]";[224, 225]
+224;"[{""nl"" : ""Bloemenmarkt""}, {""en"" : ""Flowermarket""}, {""fr"" : ""Marché de fleurs""}, {""de"" : ""Flowermarket""}, {""es"" : ""Mercado de flores""}, {""ca"" : ""Mercat de flors""}]";
+230;"[{""nl"" : ""Herenwoonst""}, {""en"" : ""House""}, {""fr"" : ""Herenwoonst""}, {""de"" : ""Haus""}, {""es"" : ""Casa""}, {""ca"" : ""Casa""}]";
+231;"[{""nl"" : ""Historische stad""}, {""en"" : ""Historical city""}, {""fr"" : ""Ville historique""}, {""de"" : ""Historische Stadt""}, {""es"" : ""Ciudad histórica""}, {""ca"" : ""Ciutat històrica""}]";
+232;"[{""nl"" : ""Historisch dorp""}, {""en"" : ""Historical village""}, {""fr"" : ""Village historique""}, {""de"" : ""Historische Dorf""}, {""es"" : ""Pueblo histórico""}, {""ca"" : ""Poble històric""}]";
+233;"[{""nl"" : ""Stad""}, {""fr"" : ""Ville""}, {""de"" : ""Stadt""}, {""es"" : ""Ciudad""}, {""ca"" : ""Ciutat""}, {""en"" : ""City""}]";[205, 231]
+234;"[{""nl"" : ""Dorp""}, {""en"" : ""Village""}, {""fr"" : ""Village""}, {""de"" : ""Dorf""}, {""es"" : ""Pueblo""}, {""ca"" : ""Poble""}]";
+235;"[{""nl"" : ""Historisch gebouw""}, {""en"" : ""Historical building""}, {""fr"" : ""Bâtiment historique""}, {""de"" : ""Historischer Gebäudes""}, {""es"" : ""Edificio histórico""}, {""ca"" : ""Edifici històric""}]";[141]
+236;"[{""nl"" : ""Historische plaats""}, {""en"" : ""Historical place""}, {""fr"" : ""Place historique""}, {""de"" : ""Historischer Platz""}, {""es"" : ""Lugar histórico""}, {""ca"" : ""Lloc històric""}]";[163, 231, 232, 235, 365, 379, 419, 478, 515]
+237;"[{""nl"" : ""Paleis""}, {""en"" : ""Palace""}, {""fr"" : ""Palais""}, {""de"" : ""Palast""}, {""es"" : ""Palacio""}, {""ca"" : ""Palau""}]";
+238;"[{""nl"" : ""Kathedraal""}, {""en"" : ""cathedral""}, {""fr"" : ""Cathédrale""}, {""de"" : ""Kathedrale""}, {""es"" : ""Catedral""}, {""ca"" : ""Catedral""}]";
+239;"[{""fr"" : ""Chantier""}, {""de"" : ""Steigung""}, {""es"" : ""Pendiente""}, {""ca"" : ""Pendent""}, {""nl"" : ""Helling""}, {""en"" : ""Slope""}]";[370, 372]
+240;"[{""nl"" : ""Heuvel""}, {""en"" : ""Hill""}, {""fr"" : ""Colline""}, {""de"" : ""Hügel""}, {""es"" : ""Colina""}, {""ca"" : ""Turó""}]";
+241;"[{""nl"" : ""Haven""}, {""en"" : ""Harbour""}, {""fr"" : ""Port""}, {""de"" : ""Hafen""}, {""es"" : ""Puerto""}, {""ca"" : ""Port""}]";[242, 243]
+242;"[{""nl"" : ""Vissershaven""}, {""en"" : ""Fishing harbour""}, {""fr"" : ""Ports pour pêcher""}, {""de"" : ""Fischereihafen""}, {""es"" : ""Puerto de pescadores""}, {""ca"" : ""Port de pescadors""}]";
+243;"[{""nl"" : ""Jachthaven""}, {""en"" : ""Yacht Basin""}, {""fr"" : ""Port de plaisance""}, {""de"" : ""Yacht-Bassin""}, {""es"" : ""Puerto deportivo""}, {""ca"" : ""Port esportiu""}]";
+244;"[{""nl"" : ""Administratieve eenheid""}, {""en"" : ""Administrative unit""}, {""fr"" : ""Unité administrative""}, {""de"" : ""Verwaltungsbezirk""}, {""es"" : ""Unidad administrativa""}, {""ca"" : ""Unitat administrativa""}]";[198, 199, 200, 201, 202, 204, 205, 209, 220, 221, 222, 233, 234, 319, 339, 407, 408, 409, 414, 415, 416, 422, 529, 530, 531, 532, 549, 550, 551, 552, 553, 554, 555]
+246;"[{""nl"" : ""Bootverhuur""}, {""en"" : ""Boat rent""}, {""fr"" : ""Bâteau à louer""}, {""de"" : ""Bootsmiete""}, {""es"" : ""Alquiler de barcos""}, {""ca"" : ""Lloguer de vaixells""}]";
+247;"[{""nl"" : ""Planetarium""}, {""en"" : ""Planetarium""}, {""fr"" : ""Planétarium""}, {""de"" : ""Planetarium""}, {""es"" : ""Planetario""}, {""ca"" : ""Planetari""}]";
+248;"[{""fr"" : ""Aéroport (International)""}, {""en"" : ""Airport (International)""}, {""nl"" : ""Luchthaven (Internationaal)""}, {""de"" : ""Flughafen (International)""}, {""es"" : ""Aeropuerto internacional""}, {""ca"" : ""Aeroport internacional""}]";
+249;"[{""nl"" : ""Heide""}, {""fr"" : ""Prairie""}, {""en"" : ""Heath""}, {""de"" : ""Heide""}]";
+250;"[{""nl"" : ""Water""}, {""en"" : ""Water""}, {""fr"" : ""Eau""}, {""de"" : ""Wasser""}, {""es"" : ""Agua""}, {""ca"" : ""Aigua""}]";[20, 22, 85, 103, 180, 191, 192, 193, 219, 251, 318, 362, 363, 469, 488, 494]
+251;"[{""nl"" : ""Zee""}, {""en"" : ""Sea""}, {""fr"" : ""Plage""}, {""de"" : ""Meer""}, {""es"" : ""mar""}, {""ca"" : ""mar""}]";
+252;"[{""nl"" : ""Wandelroute""}, {""en"" : ""Walk""}, {""fr"" : ""Circuit""}, {""de"" : ""Weg""}, {""es"" : ""Caminata""}, {""ca"" : ""Caminada""}]";[253]
+253;"[{""nl"" : ""Wandelroute startplaats""}, {""en"" : ""Walk Start""}, {""fr"" : ""Début de circuit""}, {""de"" : ""Weg-Anfang""}, {""es"" : ""Inicio de la caminata""}, {""ca"" : ""Inici de la caminada""}]";
+254;"[{""nl"" : ""Picknick plaats""}, {""en"" : ""Picknick location""}, {""fr"" : ""Endroits pour pique-niquer""}, {""de"" : ""Picknick""}, {""es"" : ""Picnic""}, {""ca"" : ""Picnic""}]";
+255;"[{""nl"" : ""Snackbar""}, {""fr"" : ""Fastfood""}, {""en"" : ""Fastfood""}, {""de"" : ""Fastfood""}, {""es"" : ""Fastfood""}, {""ca"" : ""Fastfood""}]";
+256;"[{""nl"" : ""Eiland""}, {""en"" : ""Island""}, {""fr"" : ""Ile""}, {""de"" : ""Insel""}, {""es"" : ""Isla""}, {""ca"" : ""Illa""}]";
+259;"[{""nl"" : ""Winkel""}, {""en"" : ""Shop""}, {""fr"" : ""Magazin""}, {""de"" : ""Geschäft""}, {""es"" : ""Tienda""}, {""ca"" : ""Botiga""}]";[15, 34, 37, 355, 438, 491]
+260;"[{""nl"" : ""Klokkenstoel""}, {""en"" : ""Bell""}, {""fr"" : ""Chaise mouton""}, {""de"" : ""Glockenturm""}, {""es"" : ""Campana""}, {""ca"" : ""Campana""}]";
+261;"[{""nl"" : ""Distilleerderij""}, {""en"" : ""Distillary""}, {""fr"" : ""Distillerie""}, {""de"" : ""Brennerei""}, {""es"" : ""Destilería""}, {""ca"" : ""Destil·leria""}]";
+262;"[{""nl"" : ""Boottochten""}, {""en"" : ""Boattrips""}, {""fr"" : ""Excursions en bâteaux""}, {""de"" : ""Bootsreisen""}, {""es"" : ""Excursiones en barco""}, {""ca"" : ""Excursions en vaixell""}]";
+263;"[{""nl"" : ""Toeristische attractie""}, {""en"" : ""Tourist attraction""}, {""fr"" : ""Attraction touristique""}, {""de"" : ""Touristenattraktion""}, {""es"" : ""Atracción turística""}, {""ca"" : ""Atracció turística""}]";
+264;"[{""nl"" : ""Ecotoerisme""}, {""en"" : ""Ecotourism""}, {""fr"" : ""Eco-tourisme""}, {""de"" : ""Eco Tourismus""}, {""es"" : ""Eco turismo""}, {""ca"" : ""Eco turisme""}]";
+265;"[{""nl"" : ""Gemaal""}, {""en"" : ""Waterpump""}, {""fr"" : ""Pompe d'épuisement""}, {""de"" : ""Wasser-Pumpe""}, {""es"" : ""Bomba de agua""}, {""ca"" : ""Bomba d'aigua""}]";
+266;"[{""nl"" : ""Watermolen""}, {""en"" : ""Watermill""}, {""fr"" : ""Moulins d'eau""}, {""de"" : ""Wassermühle""}, {""es"" : ""Molino de agua""}, {""ca"" : ""Molí d'aigua""}]";
+267;"[{""nl"" : ""Fietsroute""}, {""en"" : ""Bicycle route""}, {""fr"" : ""Circuit pour cyclistes""}, {""de"" : ""Fahrradweg""}, {""es"" : ""Ruta de ciclismo""}, {""ca"" : ""Ruta de ciclisme""}]";
+268;"[{""nl"" : ""Motorroute""}, {""en"" : ""Motor route""}, {""fr"" : ""Circuit pour motard""}, {""de"" : ""Motorradweg""}, {""es"" : ""Ruta de motociclismo""}, {""ca"" : ""Ruta de motociclisme""}]";
+270;"[{""nl"" : ""Plein""}, {""en"" : ""Square""}, {""fr"" : ""Plaine""}, {""de"" : ""Platz""}, {""es"" : ""Plaza""}, {""ca"" : ""Plaça""}]";
+271;"[{""nl"" : ""Luchthaven (Regionaal)""}, {""en"" : ""Luchthaven (Regional)""}, {""fr"" : ""Luchthaven (Régional)""}, {""de"" : ""Flughafen (Regional)""}, {""es"" : ""Aeropuerto regional""}, {""ca"" : ""Aeroport regional""}]";
+225;"[{""nl"" : ""Rommelmarkt""}, {""fr"" : ""Marché aux puces""}, {""en"" : ""Flea market""}, {""de"" : ""Flohmarkt""}, {""es"" : ""Mercadillo""}, {""ca"" : ""Mercat de puces""}]";
+274;"[{""nl"" : ""Brandtoren""}, {""en"" : ""Fire tower""}, {""fr"" : ""Tours de feux""}, {""de"" : ""Feueraufsatz""}, {""es"" : ""Torre de vigilancia""}, {""ca"" : ""Torre de vigilància""}]";
+275;"[{""nl"" : ""Energiecentrale""}, {""en"" : ""Powerplant""}, {""fr"" : ""Centrale d'énergie""}, {""de"" : ""Kraftwerk""}, {""es"" : ""Central eléctrica""}, {""ca"" : ""Central elèctrica""}]";
+276;"[{""nl"" : ""TV zendmast""}, {""en"" : ""TV-tower""}, {""fr"" : ""Pylône de télé""}, {""de"" : ""TV-Aufsatz""}, {""es"" : ""Torre de televisión""}, {""ca"" : ""Torre de televisió""}]";
+277;"[{""nl"" : ""Radio zendmast""}, {""en"" : ""Radio tower""}, {""fr"" : ""Pylône de transmission radio""}, {""de"" : ""Radioaufsatz""}, {""es"" : ""Torre de radio""}, {""ca"" : ""Torre de radio""}]";
+280;"[{""nl"" : ""Stadion""}, {""en"" : ""Stadium""}, {""fr"" : ""Stade""}, {""de"" : ""Stadion""}, {""es"" : ""Estadio""}, {""ca"" : ""Estadi""}]";
+281;"[{""nl"" : ""Wegrestaurant""}, {""en"" : ""Road restaurant""}, {""fr"" : ""Restoroute""}, {""de"" : ""Straßengaststätte""}, {""es"" : ""Restaurante de carretera""}, {""ca"" : ""Restaurant de carretera""}]";
+282;"[{""nl"" : ""Snelwegrestaurant""}, {""en"" : ""Road resto""}, {""fr"" : ""Resto-auto-route""}, {""de"" : ""Straße resto""}, {""es"" : ""Área de servicio""}, {""ca"" : ""Àrea de servei""}]";
+283;"[{""nl"" : ""Sportstadion""}, {""en"" : ""Sports Hall""}, {""fr"" : ""Stade sportif""}, {""de"" : ""Sporthalle""}, {""es"" : ""Polideportivo""}, {""ca"" : ""Poliesportiu""}]";
+284;"[{""nl"" : ""Attractiepark - Themapark""}, {""en"" : ""Park""}, {""fr"" : ""Parc thématique""}, {""de"" : ""Park""}]";
+285;"[{""nl"" : ""Zwemgelegenheid""}, {""en"" : ""Swimming spot""}, {""fr"" : ""Endroit pour se baigner""}, {""de"" : ""Schwimmenpunkt""}, {""es"" : ""Zona de natación""}, {""ca"" : ""Zona de natació""}]";[58, 59, 63, 102, 326, 341]
+286;"[{""nl"" : ""Recreatieterrein""}, {""en"" : ""Leisure Centre""}, {""fr"" : ""Terrain pour récréation""}, {""de"" : ""Freizeit-Mitte""}, {""es"" : ""Centro de recreo""}, {""ca"" : ""Centre d'esbarjo""}]";
+287;"[{""nl"" : ""Midgetgolf""}, {""en"" : ""Midget golf""}, {""fr"" : ""Minigolf""}, {""de"" : ""Miniaturgolf""}, {""es"" : ""Mini golf""}, {""ca"" : ""Mini golf""}]";
+288;"[{""nl"" : ""Fietsverhuur""}, {""en"" : ""Rent a bicycle""}, {""fr"" : ""Location de vélo""}, {""de"" : ""Fahrradmiete""}, {""es"" : ""Alquiler de bicicletas""}, {""ca"" : ""Lloguer de bicicletes""}]";
+289;"[{""nl"" : ""Uitzichttoren""}, {""en"" : ""Viewpoint from tower""}, {""fr"" : ""Belvédère""}, {""de"" : ""Veranschaulichung vom Aufsatz""}, {""es"" : ""Mirador (Torre)""}, {""ca"" : ""Mirador (Torre)""}]";
+290;"[{""nl"" : ""Observatiepunt""}, {""en"" : ""View point""}, {""fr"" : ""Point d'observation""}, {""de"" : ""Ansicht""}, {""es"" : ""Mirador""}, {""ca"" : ""Mirador""}]";
+291;"[{""en"" : ""Viewpoint""}, {""fr"" : ""Vue panoramique""}, {""de"" : ""Ansicht punkt""}, {""es"" : ""Mirador""}, {""ca"" : ""Mirador""}, {""nl"" : ""Uitzichtspunt""}]";
+292;"[{""nl"" : ""Tuin""}, {""en"" : ""Garden""}, {""fr"" : ""Jardin""}, {""de"" : ""Garten""}, {""es"" : ""Jardín""}, {""ca"" : ""Jardí""}]";[454, 475]
+293;"[{""nl"" : ""Hertenkamp""}, {""en"" : ""Deer camp""}, {""fr"" : ""Parc aux cerfs""}, {""de"" : ""Rotwildlager""}, {""es"" : ""Área de caza""}, {""ca"" : ""Àrea de caça""}]";
+294;"[{""nl"" : ""Spoorlijn""}, {""en"" : ""Railtrack""}, {""fr"" : ""Ligne de chemin de fer""}, {""de"" : ""Schienenstrang""}, {""es"" : ""Vías férreas""}, {""ca"" : ""Vies fèrries""}]";
+295;"[{""nl"" : ""Serres""}, {""en"" : ""Greenhouse""}, {""fr"" : ""Serres""}, {""de"" : ""Gewächshaus""}, {""es"" : ""Invernadero""}, {""ca"" : ""Hivernacle""}]";
+296;"[{""nl"" : ""Kantorenpark""}, {""en"" : ""Office park""}, {""fr"" : ""Bureaux des parcs""}, {""de"" : ""Büropark""}, {""es"" : ""Centro de negocios""}, {""ca"" : ""Centre de negocis""}]";
+297;"[{""en"" : ""Shopping center""}, {""fr"" : ""Centre commercial""}, {""de"" : ""Einkaufszentrum""}, {""es"" : ""Centro comercial""}, {""ca"" : ""Centre comercial""}, {""nl"" : ""Winkelcentrum""}]";
+300;"[{""nl"" : ""Kolk""}, {""en"" : ""Kolk""}, {""fr"" : ""Gouffre""}, {""de"" : ""Kolk""}, {""es"" : ""Estanque""}, {""ca"" : ""Estanc""}]";
+301;"[{""nl"" : ""Fietsstalling""}, {""en"" : ""Bicycle shelter""}, {""fr"" : ""Endroit pour garer les bicyclettes""}, {""de"" : ""Fahrradschutz""}, {""es"" : ""Cobertizo para bicicletas""}, {""ca"" : ""Cobert per a bicicletes""}]";
+302;"[{""nl"" : ""Winkelstraat""}, {""en"" : ""Shoppingstreet""}, {""fr"" : ""Rue commerçante""}, {""de"" : ""Einkaufenstraße""}, {""es"" : ""Calle comercial""}, {""ca"" : ""Carrer comercial""}]";
+303;"[{""nl"" : ""Occulte plaats""}, {""en"" : ""Occult place""}, {""fr"" : ""Endroits occultes""}, {""de"" : ""Geheimnisvoller Platz""}, {""es"" : ""Llugar oculto""}, {""ca"" : ""Lloc ocult""}]";
+307;"[{""en"" : ""Farm""}, {""fr"" : ""Ferme""}, {""de"" : ""Bauernhofes""}, {""es"" : ""Granja""}, {""ca"" : ""Granja""}, {""nl"" : ""Boerderij""}]";
+308;"[{""fr"" : ""Ferme""}, {""de"" : ""Bauernhofes""}, {""en"" : ""Farm""}, {""nl"" : ""Hoeve""}]";
+309;"[{""nl"" : ""Cultureel centrum""}, {""en"" : ""Cultural Centre""}, {""fr"" : ""Centre culturel""}, {""de"" : ""Kulturelle Mitte""}, {""es"" : ""Centro Cultural""}, {""ca"" : ""Centre Cultural""}]";
+310;"[{""nl"" : ""B&B""}, {""en"" : ""B&B""}, {""fr"" : ""Dormir et petit déjeuner""}, {""de"" : ""B&B""}, {""es"" : ""Bed and Breakfast""}, {""ca"" : ""Bed and Breakfast""}]";
+313;"[{""nl"" : ""Begijnhof""}, {""en"" : ""Beguinage""}, {""fr"" : ""Béguinage""}, {""de"" : ""Beginenhof""}, {""es"" : ""Beguinaje""}, {""ca"" : ""Beguinatge""}]";
+314;"[{""en"" : ""Story""}, {""fr"" : ""Conte""}, {""de"" : ""Geschichte""}, {""es"" : ""Historia""}, {""ca"" : ""Història""}, {""nl"" : ""Verhaal""}]";[214, 315]
+315;"[{""en"" : ""Legend""}, {""fr"" : ""Légende""}, {""de"" : ""Legende""}, {""es"" : ""Leyenda""}, {""ca"" : ""Llegenda""}, {""nl"" : ""Legende""}]";
+316;"[{""fr"" : ""Université""}, {""de"" : ""Universität""}, {""es"" : ""Universidad""}, {""ca"" : ""Universitat""}, {""nl"" : ""Universiteit""}, {""en"" : ""University""}]";
+317;"[{""nl"" : ""Klokkentoren""}, {""en"" : ""Bell tower""}, {""fr"" : ""Clocher""}, {""de"" : ""Glockenturm""}]";
+318;"[{""nl"" : ""Zeearm""}, {""en"" : ""Sea Arm""}, {""fr"" : ""Bras de mer""}, {""de"" : ""Bucht""}, {""es"" : ""Brazo de mar""}, {""ca"" : ""Braç de mar""}]";
+319;"[{""nl"" : ""Grens""}, {""en"" : ""Border""}, {""fr"" : ""Frontières""}, {""de"" : ""Grenze""}]";[198, 199, 200, 201, 206, 209, 339]
+320;"[{""nl"" : ""Kunstgalerij""}, {""en"" : ""Art gallery""}, {""fr"" : ""Galerie d'art""}, {""de"" : ""Kunstgalerie""}, {""es"" : ""Galería de arte""}, {""ca"" : ""Galeria d'art""}]";
+321;"[{""nl"" : ""Kunst""}, {""en"" : ""Arts Centre""}, {""fr"" : ""Art""}, {""de"" : ""Kunst-Mitte""}, {""es"" : ""Centro de arte""}, {""ca"" : ""Centre d'art""}]";
+322;"[{""nl"" : ""Tentoonstellingsruimte""}, {""en"" : ""Exhibition Centre""}, {""fr"" : ""Grande exposition""}, {""de"" : ""Ausstellung-Mitte""}, {""es"" : ""Centro ferial""}, {""ca"" : ""Centre firal""}]";
+323;"[{""nl"" : ""Route""}, {""en"" : ""Route""}, {""fr"" : ""Itinéraire""}, {""de"" : ""Route""}, {""es"" : ""Ruta""}, {""ca"" : ""Ruta""}]";[117, 123, 252, 262, 267, 268, 404, 405]
+324;"[{""nl"" : ""Paardenrenbaan""}, {""en"" : ""Hippodrome""}, {""fr"" : ""Champs de course pour chevaux""}, {""de"" : ""Hippodrom""}, {""es"" : ""Hipódromo""}, {""ca"" : ""Hipòdrom""}]";
+325;"[{""nl"" : ""Renbaan""}, {""en"" : ""Racetrack""}, {""fr"" : ""Champs de course""}, {""de"" : ""Rennbahn""}, {""es"" : ""Autódromo""}, {""ca"" : ""Pista de curses""}]";
+326;"[{""nl"" : ""Strand""}, {""en"" : ""Beach""}, {""fr"" : ""Plage""}, {""de"" : ""Strand""}, {""es"" : ""Playa""}, {""ca"" : ""Platja""}]";
+327;"[{""nl"" : ""Gerechtsgebouw""}, {""en"" : ""Courthouse""}, {""fr"" : ""Palais de justice""}, {""de"" : ""Gericht""}, {""es"" : ""Juzgado""}, {""ca"" : ""Jutjat""}]";
+328;"[{""nl"" : ""Muzikaal centrum""}, {""en"" : ""Music Centre""}, {""fr"" : ""Centre musical""}, {""de"" : ""Musik-Mitte""}, {""es"" : ""Centro de música""}, {""ca"" : ""Centre de música""}]";
+329;"[{""nl"" : ""Conferentie centrum""}, {""en"" : ""Convention Centre""}, {""fr"" : ""Centre de conférence""}, {""de"" : ""Messegelaende""}, {""es"" : ""Centro de convenciones""}, {""ca"" : ""Centre de convencions""}]";
+330;"[{""nl"" : ""Nightlife""}, {""en"" : ""Nightlife""}, {""fr"" : ""Vie nocturne""}, {""de"" : ""Nachtleben""}, {""es"" : ""Marcha nocturna""}, {""ca"" : ""Marxa nocturna""}]";
+331;"[{""nl"" : ""Condominium""}, {""en"" : ""Condominium""}, {""fr"" : ""Condominium""}, {""de"" : ""Kondominium""}, {""es"" : ""Bloque de pisos""}, {""ca"" : ""Bloc de pisos""}]";
+332;"[{""nl"" : ""Entertainment""}, {""en"" : ""Entertainment""}, {""fr"" : ""Loisir""}, {""de"" : ""Unterhaltung""}, {""es"" : ""Entretenimiento""}, {""ca"" : ""Entreteniment""}]";
+333;"[{""nl"" : ""Kunstcentrum""}, {""en"" : ""Arts Centre""}, {""fr"" : ""Centre artistique""}, {""de"" : ""Kunst-Mitte""}]";
+334;"[{""nl"" : ""Vakantiecentrum""}, {""en"" : ""Holiday area""}, {""fr"" : ""Centre pour vacance""}, {""de"" : ""Feiertagsbereich""}, {""es"" : ""Área vacacional""}, {""ca"" : ""Àrea vacacional""}]";
+335;"[{""nl"" : ""Militaire begraafplaats""}, {""en"" : ""Military Cemetery""}, {""fr"" : ""Cimetière militaire""}, {""de"" : ""Militärkirchhof""}, {""es"" : ""Cementerio militar""}, {""ca"" : ""Cementiri militar""}]";
+336;"[{""nl"" : ""Gevangenis""}, {""en"" : ""Prison""}, {""fr"" : ""Prison""}, {""de"" : ""Gefängnis""}, {""es"" : ""Cárcel""}, {""ca"" : ""Presó""}]";
+337;"[{""nl"" : ""Rotspartij""}, {""en"" : ""Rocks""}, {""fr"" : ""Massif rocheux""}, {""de"" : ""Felsen""}, {""es"" : ""Rocas""}, {""ca"" : ""Roques""}]";
+339;"[{""en"" : ""Frontier Crossing""}, {""nl"" : ""Grensovergang""}, {""fr"" : ""Frontière de passage""}, {""de"" : ""Grenzüberfahrt""}, {""es"" : ""Paso fronterizo""}, {""ca"" : ""Pas fronterer""}]";
+340;"[{""en"" : ""Ice Skating Rink""}, {""fr"" : ""Patinoire""}, {""nl"" : ""IJsschaatspiste""}, {""de"" : ""Eisbahn""}, {""es"" : ""Pista de patinaje sobre hielo""}, {""ca"" : ""Pista de patinatge sobre gel""}]";
+341;"[{""en"" : ""Water Sport""}, {""fr"" : ""Sport nautique""}, {""de"" : ""Wasser-Sport""}, {""es"" : ""Deporte acuático""}, {""ca"" : ""Esport aquàtic""}, {""nl"" : ""Watersport""}]";
+342;"[{""nl"" : ""Wijnbrouwerij""}, {""en"" : ""Winery""}, {""fr"" : ""Brasserie de vin""}, {""de"" : ""Weinkellerei""}, {""es"" : ""Bodega""}, {""ca"" : ""Celler""}]";
+345;"[{""nl"" : ""Straat""}, {""en"" : ""Street""}, {""fr"" : ""Rue""}, {""de"" : ""Straße""}, {""es"" : ""Calle""}, {""ca"" : ""Carrer""}]";
+348;"[{""nl"" : ""Industriegrond""}, {""en"" : ""Industrial Area Ground""}, {""fr"" : ""Territoire industriel""}, {""de"" : ""Industriegebiet-Boden""}]";
+349;"[{""nl"" : ""Vlag""}, {""en"" : ""Flag""}, {""fr"" : ""Drapeau""}, {""de"" : ""Markierungsfahne""}, {""es"" : ""Bandera""}, {""ca"" : ""Bandera""}]";
+350;"[{""nl"" : ""Paardenverhuur""}, {""en"" : ""Horses renting""}, {""fr"" : ""Location de chevaux""}, {""de"" : ""Pferdenmieten""}, {""es"" : ""Alquiler de caballos""}, {""ca"" : ""Lloguer de cavalls""}]";
+351;"[{""nl"" : ""Knooppunt""}, {""en"" : ""Route Intersection""}, {""fr"" : ""Intersection de route""}, {""de"" : ""Route-Durchschnitt""}, {""es"" : ""Intersección de ruta""}, {""ca"" : ""Intersecció de ruta""}]";
+353;"[{""nl"" : ""Hoogtepunt""}, {""en"" : ""Height Point""}, {""fr"" : ""Points hauts""}, {""de"" : ""Höhen-Punkt""}, {""es"" : ""Punto elevado""}, {""ca"" : ""Punt elevat""}]";
+354;"[{""nl"" : ""Geodetisch Punt""}, {""en"" : ""Geodetic Point""}, {""fr"" : ""Point géodésique""}, {""de"" : ""Geodätischer Punkt""}, {""es"" : ""Punto geodésico""}, {""ca"" : ""Punto geodèsic""}]";[353, 377]
+355;"[{""nl"" : ""Schoonheidssalon""}, {""en"" : ""Beauty Farm""}, {""fr"" : ""BeautyFarm""}, {""de"" : ""Schönheits-Bauernhof""}, {""es"" : ""Beauty Farm""}, {""ca"" : ""Beauty Farm""}]";
+359;"[{""en"" : ""Outdoor activity""}, {""nl"" : ""Buitenactiviteit""}, {""de"" : ""Natursport""}, {""es"" : ""Actividades en aire libre""}, {""ca"" : ""Activitats en aire lliure""}]";
+361;"[{""en"" : ""Vineyard""}, {""nl"" : ""Wijngaard""}, {""de"" : ""Weinberg""}, {""es"" : ""Viñedo""}, {""ca"" : ""Vinyer""}]";
+362;"[{""en"" : ""Fish-pond""}, {""nl"" : ""Visvijver""}, {""de"" : ""Fischereiteich""}]";
+363;"[{""en"" : ""Water recreation""}, {""nl"" : ""Waterrecreatie""}, {""de"" : ""Wassererholung""}]";
+364;"[{""nl"" : ""Bunker""}, {""fr"" : ""Bunker""}, {""en"" : ""Bunker""}, {""de"" : ""Bunker""}, {""es"" : ""Búnker""}, {""ca"" : ""Búnker""}]";
+365;"[{""nl"" : ""Stadspoort""}, {""de"" : ""Stadt-Gatter""}, {""es"" : ""Puerta""}, {""ca"" : ""Porta""}, {""en"" : ""Town-gate""}]";
+366;"[{""nl"" : ""Stadsmuur""}, {""en"" : ""Town-wall""}, {""de"" : ""Stadt-Wand""}, {""es"" : ""Muralla""}, {""ca"" : ""Muralla""}]";
+367;"[{""nl"" : ""School""}, {""fr"" : ""École""}, {""en"" : ""School""}, {""de"" : ""Schule""}, {""es"" : ""Escuela""}, {""ca"" : ""Escola""}]";[316, 468]
+368;"[{""nl"" : ""Kruispunt""}, {""en"" : ""Crossing""}, {""fr"" : ""Carrefour""}, {""de"" : ""Straßenkreuzung""}, {""es"" : ""Cruce""}, {""ca"" : ""Encreuament""}]";
+369;"[{""nl"" : ""Klif""}, {""en"" : ""Cliff""}, {""fr"" : ""Falaise""}, {""de"" : ""Klippe""}, {""es"" : ""Acantilado""}, {""ca"" : ""Penya-segat""}]";
+370;"[{""nl"" : ""Beklimming""}, {""fr"" : ""Monté""}, {""de"" : ""Aufstieg""}, {""es"" : ""Subida""}, {""ca"" : ""Pujada""}, {""en"" : ""Climb""}]";
+371;"[{""nl"" : ""Clublokaal""}, {""en"" : ""Club room""}, {""fr"" : ""Local de club""}, {""de"" : ""Vereinraum""}]";
+372;"[{""nl"" : ""Afdaling""}, {""en"" : ""Descent""}, {""fr"" : ""Descente""}, {""de"" : ""Abfall""}, {""es"" : ""Bajada""}, {""ca"" : ""Baixada""}]";
+373;"[{""nl"" : ""Afstandsmarkering""}, {""en"" : ""Distance Marker""}, {""fr"" : ""Marqueur de distance""}, {""de"" : ""Abstands-Markierung""}, {""es"" : ""Miliario""}, {""ca"" : ""Mil·liari""}]";
+374;"[{""nl"" : ""Graf""}, {""en"" : ""Grave""}, {""fr"" : ""Tombe""}, {""de"" : ""Grab""}, {""es"" : ""Tumba""}, {""ca"" : ""Tomba""}]";
+375;"[{""nl"" : ""Horeca""}, {""en"" : ""Horeca""}, {""fr"" : ""Horeca""}, {""de"" : ""Horeca""}, {""es"" : ""Hostelería""}, {""ca"" : ""Hostaleria""}]";[330, 562]
+376;"[{""nl"" : ""Laan""}, {""en"" : ""Lane""}, {""fr"" : ""Avenue""}, {""de"" : ""Allee""}, {""es"" : ""Carril""}, {""ca"" : ""Carril""}]";
+377;"[{""nl"" : ""Laagste punt""}, {""en"" : ""Lowest point""}, {""fr"" : ""Le plus bas point""}, {""de"" : ""Niedrigster Punkt""}, {""es"" : ""Punto más bajo""}, {""ca"" : ""Punt més baix""}]";
+378;"[{""nl"" : ""Markeerpunt""}, {""en"" : ""Marker""}, {""fr"" : ""Marquer""}, {""de"" : ""Markierung""}, {""es"" : ""Marca""}, {""ca"" : ""Marca""}]";
+379;"[{""nl"" : ""Herdenkingsplaats""}, {""en"" : ""Memorial location""}, {""fr"" : ""Location commémorative""}, {""de"" : ""Erinnerungsplatz""}, {""es"" : ""Monumento memorial""}, {""ca"" : ""Monument memorial""}]";
+380;"[{""en"" : ""Shelter for the night""}, {""fr"" : ""Gite""}, {""de"" : ""Schutz für die Nacht""}, {""es"" : ""Refugio""}, {""ca"" : ""Refugi""}, {""nl"" : ""Overnachtingsplaats""}]";[4, 5, 6, 9, 10, 11, 13, 38, 39, 264, 310, 331, 358, 375, 383, 384, 385, 386, 520, 524, 561]
+381;"[{""nl"" : ""Top""}, {""en"" : ""Top""}, {""fr"" : ""Sommet""}, {""de"" : ""Gipfel""}, {""es"" : ""Pico""}, {""ca"" : ""Pic""}]";
+382;"[{""nl"" : ""Bedevaartsoord""}, {""fr"" : ""Pèlerinage""}, {""en"" : ""Pelgrimage""}, {""de"" : ""Pilgerfahrt""}, {""es"" : ""Peregrinaje""}, {""ca"" : ""Pelegrinatge""}]";
+383;"[{""nl"" : ""Hostel""}, {""en"" : ""Hostel""}, {""de"" : ""Herberge""}, {""fr"" : ""Auberge""}, {""es"" : ""Hostal""}, {""ca"" : ""Hostal""}]";
+384;"[{""nl"" : ""Groepsverblijf""}, {""en"" : ""Groupaccomodation""}, {""de"" : ""Hotel für Gruppen""}, {""es"" : ""Alojamiento para grupos""}, {""ca"" : ""Allotjament per a grups""}]";
+385;"[{""nl"" : ""Vakantiewoning""}, {""en"" : ""Holidayhouse""}, {""de"" : ""Feiertagshaus""}, {""es"" : ""Casa vacacional""}, {""ca"" : ""Casa vacacional""}]";
+386;"[{""nl"" : ""Vakantiepark""}, {""en"" : ""Holidaypark""}, {""de"" : ""Feiertagspark""}]";
+387;"[{""nl"" : ""Kinderboerderij""}, {""en"" : ""Petting Zoo""}, {""de"" : ""Streichelzoo""}]";
+388;"[{""nl"" : ""Bezoekerscentrum""}, {""en"" : ""Visitingcenter""}, {""de"" : ""Touristinformation""}, {""fr"" : ""Information Touristique""}]";
+389;"[{""nl"" : ""Natuurgebied""}, {""en"" : ""Natural area""}, {""de"" : ""Natürlicher Bereich""}]";
+392;"[{""nl"" : ""Eendenkooi""}, {""en"" : ""Duck decoy""}, {""de"" : ""Entelockvogel""}]";
+393;"[{""nl"" : ""Landgoed""}, {""en"" : ""Estate""}, {""de"" : ""Gutshof""}]";
+394;"[{""nl"" : ""Stadspaleis""}, {""en"" : ""City palace""}, {""de"" : ""Stadtpalast""}, {""es"" : ""Palacio urbano""}, {""ca"" : ""Palau urbà""}]";
+395;"[{""nl"" : ""Oplaadpunt elektrische fiets""}, {""en"" : ""Electrical bike charger""}, {""de"" : ""Elektrisches Fahrradaufladeeinheit""}, {""es"" : ""Cargador de bicicletas eléctricas""}, {""ca"" : ""Carregador de bicicletes elèctriques""}]";
+397;"[{""en"" : ""Crime spot""}, {""nl"" : ""Misdaadplaats""}, {""de"" : ""Kriminalität punkt""}, {""es"" : ""Lugar de crimen""}, {""ca"" : ""Lloc de crim""}]";
+398;"[{""en"" : ""Detour""}, {""nl"" : ""Omleiding""}, {""de"" : ""Umweg""}, {""es"" : ""Desvío""}, {""ca"" : ""Desviament""}]";
+399;"[{""en"" : ""Bicycle network""}, {""nl"" : ""Fietsnetwerk""}, {""de"" : ""Fahrradnetz""}, {""es"" : ""Red de bicicleta""}, {""ca"" : ""Xarxa de bicicleta""}]";
+400;"[{""en"" : ""Manor house""}, {""nl"" : ""Herenhuis""}, {""de"" : ""Landsitzhaus""}, {""es"" : ""Casa señorial""}, {""ca"" : ""Casa Senyorial""}]";
+401;"[{""en"" : ""Cobblestone""}, {""nl"" : ""Kasseistrook""}, {""de"" : ""Kopfstein""}]";
+402;"[{""en"" : ""Cliff coast""}, {""nl"" : ""Klifkust""}, {""de"" : ""Klippenküste""}, {""es"" : ""Costa de acantilados""}, {""ca"" : ""Costa de penya-segats""}]";
+403;"[{""en"" : ""Rock coast""}, {""nl"" : ""Rotskust""}, {""de"" : ""Felsenküste""}, {""es"" : ""Costa rocosa""}, {""ca"" : ""Costa rocosa""}]";
+404;"[{""en"" : ""Mountainbike route""}, {""nl"" : ""Mountainbike route""}, {""de"" : ""Mountainbike route""}, {""es"" : ""Ruta de bicicleta de montaña""}, {""ca"" : ""Ruta de bicicleta de muntanya""}]";
+405;"[{""en"" : ""Nordic walking""}, {""nl"" : ""Nordic walking""}, {""de"" : ""Nordic walking""}, {""es"" : ""Nordic walking""}, {""ca"" : ""Nordic walking""}]";
+406;"[{""nl"" : ""Speeltuin""}, {""en"" : ""Playground""}, {""de"" : ""Spielplatz""}, {""es"" : ""Patrio de recreo""}, {""ca"" : ""Espai de joc""}]";
+407;"[{""nl"" : ""Land""}, {""fr"" : ""Pays""}, {""en"" : ""Country""}, {""de"" : ""Land""}]";
+408;"[{""nl"" : ""Deelstaat""}, {""fr"" : ""Etat""}, {""en"" : ""State""}, {""de"" : ""Bundesland""}]";
+409;"[{""nl"" : ""Provincie""}, {""fr"" : ""Province""}, {""en"" : ""Province""}, {""de"" : ""Provinz""}]";
+414;"[{""nl"" : ""District""}, {""fr"" : ""District""}, {""en"" : ""District""}, {""de"" : ""Kreis""}]";
+415;"[{""fr"" : ""Municipalité""}, {""de"" : ""Gemeinde""}, {""nl"" : ""Gemeente""}, {""en"" : ""Municipality""}]";
+416;"[{""nl"" : ""Deelgemeente""}, {""fr"" : ""Partie de la Municipalité""}, {""en"" : ""Sub-Municipality""}, {""de"" : ""Teil der Gemeinde""}]";
+418;"[{""nl"" : ""Luchthaven""}, {""en"" : ""Airport""}, {""fr"" : ""Aéroport""}, {""de"" : ""Flughafen""}, {""es"" : ""Aeropuerto""}, {""ca"" : ""Aeroport""}]";[248, 271]
+419;"[{""nl"" : ""Archeologisch site""}, {""en"" : ""Archeological site""}, {""de"" : ""Archäologischer platz""}, {""es"" : ""Yacimiento arqueológico""}, {""ca"" : ""Jaciment arqueològic""}]";
+420;"[{""nl"" : ""Gebied""}, {""en"" : ""Area""}, {""de"" : ""Bereich""}]";[244, 522, 550]
+421;"[{""nl"" : ""Baai""}, {""en"" : ""Bay""}, {""fr"" : ""Baie""}, {""de"" : ""Bucht""}, {""es"" : ""Bahía""}, {""ca"" : ""Badia""}]";
+422;"[{""nl"" : ""Centrum""}, {""en"" : ""Center""}, {""de"" : ""Mitte""}, {""es"" : ""Centro""}, {""ca"" : ""Centre""}]";
+423;"[{""nl"" : ""Monding""}, {""en"" : ""Confluence""}, {""fr"" : ""Confluent""}, {""de"" : ""Zusammenströmen""}]";
+424;"[{""nl"" : ""Film locatie""}, {""en"" : ""Film spot""}, {""de"" : ""Filmpunkt""}, {""es"" : ""Lugar de rodaje""}, {""ca"" : ""Lloc de rodatge""}]";
+425;"[{""nl"" : ""Lagune""}, {""en"" : ""Lagoon""}, {""fr"" : ""Lagune""}, {""de"" : ""Lagune""}, {""es"" : ""Laguna""}, {""ca"" : ""Llacuna""}]";
+426;"[{""nl"" : ""Lift""}, {""en"" : ""Elevator""}, {""fr"" : ""Ascenseur""}, {""de"" : ""Aufzug""}, {""es"" : ""Ascensor""}, {""ca"" : ""Ascensor""}]";
+427;"[{""nl"" : ""Molen""}, {""en"" : ""Mill""}, {""fr"" : ""Moulin""}, {""de"" : ""Mühle""}, {""es"" : ""Molino""}, {""ca"" : ""Molí""}]";[266]
+428;"[{""nl"" : ""Berg""}, {""en"" : ""Mountain""}, {""fr"" : ""Montagne""}, {""de"" : ""Berg""}, {""es"" : ""Montaña""}, {""ca"" : ""Muntaya""}]";[190]
+429;"[{""nl"" : ""Bergketen""}, {""en"" : ""Mountain range""}, {""fr"" : ""Cordillère""}, {""de"" : ""Gebirgszug""}, {""es"" : ""Cordillera""}, {""ca"" : ""Serralada""}]";
+430;"[{""en"" : ""Service""}, {""fr"" : ""Service""}, {""de"" : ""Service""}, {""es"" : ""Servicio""}, {""ca"" : ""Servei""}, {""nl"" : ""Service""}]";[7, 14, 23, 26, 41, 150, 259, 350, 380, 432, 440, 567]
+432;"[{""nl"" : ""Taxistopplaats""}, {""de"" : ""Taxi stop""}, {""en"" : ""Taxi stop""}, {""fr"" : ""Arrêt de taxi""}, {""es"" : ""Parada de taxi""}, {""ca"" : ""Parada de taxis""}, {""it"" : ""Fermata del taxi""}]";
+435;"[{""nl"" : ""Jeugdcentrum""}, {""en"" : ""Youth centre""}, {""de"" : ""Jugendmitte""}, {""es"" : ""Centro juvenil""}, {""ca"" : ""Centre juvenil""}]";
+437;"[{""nl"" : ""Sportplaats""}, {""en"" : ""Sport location""}, {""de"" : ""Sport platz""}]";[61, 62, 88, 97, 98, 99, 100, 101, 102, 280, 283, 285, 340, 341, 517, 518, 536, 537]
+438;"[{""nl"" : ""Supermarkt""}, {""en"" : ""Supermarket""}, {""de"" : ""Supermarkt""}, {""es"" : ""Supermercado""}, {""ca"" : ""Supermercat""}]";
+439;"[{""nl"" : ""Cultuur""}, {""en"" : ""Culture""}, {""de"" : ""Kultur""}, {""fr"" : ""Culture""}]";[24, 68, 75, 76, 96, 106, 165, 166, 238, 309, 320, 321, 322, 328, 332, 333, 443, 456, 464, 479, 491, 508]
+440;"[{""nl"" : ""Winkelplaats""}, {""en"" : ""Shopping location""}, {""de"" : ""Einkaufszentrum""}]";[223, 224, 225, 259, 297, 302]
+443;"[{""nl"" : ""Erfgoed""}, {""en"" : ""Heritage""}, {""de"" : ""Erbe""}, {""fr"" : ""Patrimoine""}, {""es"" : ""Patrimonio""}, {""ca"" : ""Patrimoni""}]";
+444;"[{""en"" : ""Seminary""}, {""nl"" : ""Seminarie""}, {""de"" : ""Priesterseminar""}, {""es"" : ""Seminario""}, {""ca"" : ""Seminari""}]";
+445;"[{""en"" : ""Crane""}, {""nl"" : ""Kraan""}, {""de"" : ""Kran""}, {""es"" : ""Grúa""}, {""ca"" : ""Grua""}]";
+446;"[{""en"" : ""Ship""}, {""nl"" : ""Schip""}, {""de"" : ""Schiff""}, {""es"" : ""Barco""}, {""ca"" : ""Vaixell""}]";
+447;"[{""en"" : ""Expo area""}, {""nl"" : ""Evenemententerrein""}, {""de"" : ""Ausstellungsbereich""}]";
+448;"[{""en"" : ""Roundabout""}, {""nl"" : ""Rotonde""}, {""de"" : ""Kreisverkehr""}, {""es"" : ""Rotonda""}, {""ca"" : ""Rotonda""}]";
+449;"[{""en"" : ""Vegetation""}, {""nl"" : ""Vegetatie""}, {""de"" : ""Vegetation""}, {""es"" : ""Vegetación""}, {""ca"" : ""Vegetació""}]";
+450;"[{""en"" : ""Crucifix""}, {""nl"" : ""Kruisbeeld""}, {""de"" : ""Kruzifix""}, {""es"" : ""Crucifijo""}, {""ca"" : ""Crucifix""}]";
+451;"[{""en"" : ""Arboretum""}, {""nl"" : ""Arboretum""}, {""de"" : ""Arboretum""}, {""es"" : ""Arboreto""}, {""ca"" : ""Arborètum""}]";
+452;"[{""en"" : ""Pasture""}, {""nl"" : ""Weiland""}, {""de"" : ""Weide""}, {""es"" : ""Pasto""}, {""ca"" : ""Pastura""}]";
+453;"[{""en"" : ""Curve""}, {""nl"" : ""Haarspeldbocht""}, {""de"" : ""Haarnadelkurve""}, {""es"" : ""Curva""}, {""ca"" : ""Revolt""}]";
+454;"[{""en"" : ""Courtyard""}, {""nl"" : ""Binnentuin""}, {""de"" : ""Hof""}, {""es"" : ""Patio interior""}, {""ca"" : ""Pati interior""}]";
+455;"[{""en"" : ""Bench""}, {""de"" : ""Bank""}, {""es"" : ""Banco""}, {""ca"" : ""Banc""}, {""nl"" : ""Zitbank""}]";
+456;"[{""en"" : ""Literary location""}, {""nl"" : ""Literaire plaats""}, {""de"" : ""Literarische Platz""}, {""es"" : ""Punto de interés literario""}, {""ca"" : ""Punt d'interès literari""}]";
+457;"[{""en"" : ""Architectural location""}, {""nl"" : ""Architecturale plaats""}, {""de"" : ""Architektur Platz""}]";
+459;"[{""en"" : ""Mine""}, {""nl"" : ""Mijn""}, {""de"" : ""Bergbau""}, {""es"" : ""Mina""}, {""ca"" : ""Mina""}]";[460, 461]
+460;"[{""en"" : ""Coal mine""}, {""nl"" : ""Steenkoolmijn""}, {""de"" : ""Kohlengrube""}, {""ca"" : ""Mina de carbó""}, {""es"" : ""Mina de carbón""}]";
+461;"[{""en"" : ""Diamond Mine""}, {""nl"" : ""Diamantmijn""}, {""de"" : ""Diamant-Grube""}, {""es"" : ""Mina de diamantes""}, {""ca"" : ""Mina de diamants""}]";
+463;"[{""en"" : ""Alley""}, {""nl"" : ""Steeg""}, {""de"" : ""Gasse""}, {""es"" : ""Callejón""}, {""ca"" : ""Carreró""}]";
+464;"[{""en"" : ""Music Location""}, {""nl"" : ""Muziek plaats""}, {""de"" : ""Musik Platz""}, {""es"" : ""Punto de interés musical""}, {""ca"" : ""Punt d'interès musical""}]";[68, 328, 479]
+465;"[{""en"" : ""Fortification""}, {""nl"" : ""Vesting""}, {""de"" : ""Verstärkung""}]";
+466;"[{""en"" : ""Basilica""}, {""nl"" : ""Basiliek""}, {""de"" : ""Basilika""}, {""es"" : ""Basílica""}, {""ca"" : ""Basílica""}]";
+467;"[{""en"" : ""Warehouse""}, {""nl"" : ""Pakhuis""}, {""de"" : ""Lager""}, {""es"" : ""Almacén""}, {""ca"" : ""Magatzem""}]";
+468;"[{""en"" : ""Riding school""}, {""nl"" : ""Manège""}, {""de"" : ""Reitschule""}, {""es"" : ""Autoescuela""}, {""ca"" : ""Autoescola""}]";
+469;"[{""en"" : ""Stream""}, {""de"" : ""Strom""}, {""nl"" : ""Beek""}]";
+470;"[{""en"" : ""Parliament""}, {""nl"" : ""Parlement""}, {""de"" : ""Parlament""}, {""es"" : ""Parlamento""}, {""ca"" : ""Parlament""}]";
+471;"[{""en"" : ""Wharf""}, {""nl"" : ""Kade""}, {""de"" : ""Kai""}, {""es"" : ""Muelle""}, {""ca"" : ""Moll""}]";
+472;"[{""en"" : ""Salina""}, {""de"" : ""Saline""}, {""es"" : ""Salina""}, {""ca"" : ""Salina""}]";
+473;"[{""en"" : ""Salt lake""}, {""nl"" : ""Zoutmeer""}, {""de"" : ""Salt See""}, {""es"" : ""Lago salado""}, {""ca"" : ""Llac salat""}]";
+474;"[{""en"" : ""Cable car""}, {""nl"" : ""Kabelbaan""}, {""de"" : ""Drahtseilbahn""}, {""es"" : ""Teleférico""}, {""ca"" : ""Telefèric""}]";
+475;"[{""en"" : ""Botanical garden""}, {""nl"" : ""Botanische tuin""}, {""de"" : ""Botanischer Garten""}, {""es"" : ""Jardín botánico""}, {""ca"" : ""Jardí botànic""}]";
+476;"[{""en"" : ""Cape""}, {""nl"" : ""Kaap""}, {""de"" : ""Kap""}, {""es"" : ""Cabo""}, {""ca"" : ""Cap""}]";
+477;"[{""en"" : ""Weather station""}, {""nl"" : ""Weerstation""}, {""de"" : ""Wetterstation""}, {""es"" : ""Estación meteorológico""}, {""ca"" : ""Estació meteorològic""}]";
+478;"[{""en"" : ""Acropolis""}, {""nl"" : ""Akropolis""}, {""de"" : ""Akropolis""}]";
+479;"[{""en"" : ""Music hall""}, {""de"" : ""Auditorium""}, {""nl"" : ""Auditorium""}, {""es"" : ""Sala""}, {""it"" : ""Auditorium""}, {""fr"" : ""Salle""}]";
+480;"[{""en"" : ""Motorway""}, {""nl"" : ""Autosnelweg""}, {""de"" : ""Autobahn""}, {""es"" : ""Autopista""}, {""ca"" : ""Autopista""}]";
+481;"[{""en"" : ""Highway""}, {""nl"" : ""Autoweg""}, {""de"" : ""Landstraße""}, {""es"" : ""Autovía""}, {""ca"" : ""Autovia""}]";
+482;"[{""en"" : ""Road""}, {""nl"" : ""Weg""}, {""de"" : ""Straße""}, {""es"" : ""Carretera""}, {""ca"" : ""Carretera""}]";[345, 376, 401, 453, 463, 480, 481]
+483;"[{""en"" : ""Peninsula""}, {""nl"" : ""Schiereiland""}, {""de"" : ""Halbinsel""}, {""es"" : ""Península""}, {""ca"" : ""Península""}]";
+484;"[{""en"" : ""Isthmus""}, {""nl"" : ""Landengte""}, {""de"" : ""Isthmus""}, {""es"" : ""Istmo""}, {""ca"" : ""Istme""}]";
+485;"[{""en"" : ""Office building""}, {""nl"" : ""Kantoorgebouw""}, {""de"" : ""Bürohaus""}, {""es"" : ""Edificio de oficinas""}, {""ca"" : ""Edifici de oficines""}]";
+487;"[{""en"" : ""Swamp""}, {""nl"" : ""Moeras""}, {""de"" : ""Sumpf""}, {""es"" : ""Pantano""}, {""ca"" : ""Torberes""}]";
+488;"[{""en"" : ""Meander""}, {""nl"" : ""Meander""}, {""de"" : ""Windung""}, {""es"" : ""Meandro""}, {""ca"" : ""Meandre""}]";
+491;"[{""en"" : ""Bookstore""}, {""nl"" : ""Boekenwinkel""}, {""de"" : ""Buchhandlung""}, {""es"" : ""Tienda de libros""}, {""ca"" : ""Botiga de llibres""}]";
+492;"[{""en"" : ""Pier""}, {""nl"" : ""Pier""}, {""de"" : ""Pier""}]";
+494;"[{""en"" : ""Channel""}, {""nl"" : ""Zeekanaal""}, {""de"" : ""Kanal""}]";
+495;"[{""en"" : ""Path""}, {""nl"" : ""Pad""}, {""de"" : ""Weg""}, {""es"" : ""Camino""}, {""ca"" : ""Camí""}]";
+496;"[{""en"" : ""Shipwreck""}, {""nl"" : ""Scheepswrak""}, {""de"" : ""Schiffswrack""}, {""es"" : ""Naufragio""}, {""ca"" : ""Naufragi""}]";
+497;"[{""en"" : ""Geyser""}, {""nl"" : ""Geiser""}, {""de"" : ""Geysir""}, {""es"" : ""Géiser""}, {""ca"" : ""Guèiser""}]";
+498;"[{""en"" : ""Entrance""}, {""nl"" : ""Ingang""}, {""de"" : ""Eingang""}, {""es"" : ""Entrada""}, {""ca"" : ""Entrada""}]";
+499;"[{""en"" : ""Exit""}, {""nl"" : ""Uitgang""}, {""de"" : ""Ausgang""}, {""es"" : ""Salida""}, {""ca"" : ""Sortida""}]";
+501;"[{""en"" : ""Slaughterhouse""}, {""fr"" : ""Abattoir""}, {""nl"" : ""Slachthuis""}, {""de"" : ""Schlachthaus""}, {""es"" : ""Matadero""}, {""ca"" : ""Escorxador""}]";
+502;"[{""en"" : ""Polder""}, {""fr"" : ""Polder""}, {""nl"" : ""Polder""}, {""de"" : ""Polder""}, {""es"" : ""Pólder""}, {""ca"" : ""Pòlder""}]";
+503;"[{""de"" : ""Warft""}, {""en"" : ""Dwelling hill""}, {""nl"" : ""Terp""}]";
+504;"[{""en"" : ""Casino""}, {""nl"" : ""Casino""}, {""de"" : ""Kasino""}, {""es"" : ""Casino""}, {""ca"" : ""Casino""}]";
+506;"[{""en"" : ""Orchard""}, {""nl"" : ""Boomgaard""}, {""de"" : ""Obstgarten""}, {""es"" : ""Huerto""}, {""ca"" : ""Hort""}]";
+507;"[{""en"" : ""Atoll""}, {""nl"" : ""Atol""}, {""de"" : ""Atoll""}, {""es"" : ""Atolón""}, {""ca"" : ""Atol""}]";
+508;"[{""en"" : ""Art location""}, {""nl"" : ""Kunstplaats""}, {""de"" : ""Kunst Platz""}]";
+510;"[{""en"" : ""Technology park""}, {""nl"" : ""Technologiepark""}, {""de"" : ""Technologiepark""}, {""es"" : ""Parque tecnológico""}, {""ca"" : ""Parc Tecnològic""}]";
+511;"[{""en"" : ""Science park""}, {""nl"" : ""Wetenschapspark""}, {""de"" : ""Technologiezentrum""}, {""es"" : ""Parque científico""}, {""ca"" : ""Parc científic""}]";
+512;"[{""en"" : ""Archipelago""}, {""nl"" : ""Eilandengroep""}, {""de"" : ""Archipel""}, {""es"" : ""Archipiélago""}, {""ca"" : ""Arxipèlag""}]";
+513;"[{""en"" : ""Observation Tower""}, {""nl"" : ""Observatietoren""}, {""de"" : ""Beobachtungs-Aufsatz""}, {""es"" : ""Torre de observación""}, {""ca"" : ""Torre d'observació""}]";
+514;"[{""en"" : ""Sandspot""}, {""nl"" : ""Schoorwal""}, {""de"" : ""Nehrung""}]";
+515;"[{""en"" : ""Birthplace""}, {""nl"" : ""Geboorteplaats""}, {""de"" : ""Geburtsort""}, {""es"" : ""Lugar de nacimiento""}, {""ca"" : ""Lloc de naixement""}]";
+516;"[{""en"" : ""Freeway Interchange""}, {""nl"" : ""Verkeerswisselaar""}, {""de"" : ""Autobahnkreuz""}]";
+517;"[{""en"" : ""Football Stadium""}, {""nl"" : ""Voetbalstadion""}, {""de"" : ""Fußballstadion""}]";
+518;"[{""nl"" : ""Race circuit""}, {""en"" : ""Race circuit""}, {""de"" : ""Rennstrecke""}]";
+519;"[{""nl"" : ""Beiaard""}, {""fr"" : ""Carillon""}, {""en"" : ""Carillon""}, {""de"" : ""Glockenspiel""}, {""es"" : ""Carillón""}, {""ca"" : ""Carilló""}]";
+520;"[{""nl"" : ""Gastenkamer""}, {""de"" : ""Gästezimmer""}, {""en"" : ""Guest_room""}, {""fr"" : ""Chambre d'hôtes""}, {""es"" : ""Cuarto de huéspedes""}]";
+521;"[{""nl"" : ""Spotters""}]";
+522;"[{""en"" : ""Touristic region""}, {""fr"" : ""Région touristique""}, {""es"" : ""Región turística""}, {""ca"" : ""Regió turística""}, {""nl"" : ""Toeristische regio""}]";
+523;"[{""nl"" : ""Kampeerautoterrein""}]";[573, 574, 575]
+524;"[{""nl"" : ""Verblijfpark""}]";
+358;"[{""fr"" : ""Cabane""}, {""nl"" : ""Trekkerhut""}, {""de"" : ""Kabine""}, {""en"" : ""Hikers cabin""}]";
+527;"[{""nl"" : ""Oorlog""}, {""en"" : ""War""}, {""de"" : ""Krieg""}, {""fr"" : ""guerre""}]";
+528;"[{""fr"" : ""Produit régional""}, {""nl"" : ""Regionaal product""}, {""en"" : ""Regional product""}, {""de"" : ""Regionales Produkt""}]";
+529;"[{""en"" : ""Country""}, {""nl"" : ""Land""}, {""de"" : ""Land""}, {""fr"" : ""Pays""}, {""ca"" : ""País""}, {""pt"" : ""País\r\n""}]";
+530;"[{""en"" : ""State""}, {""de"" : ""Bundersland""}, {""nl"" : ""Provincie""}, {""pt"" : ""Província""}, {""ca"" : ""Província\r\n""}]";
+531;"[{""nl"" : ""Gemeente""}, {""ca"" : ""Municipi""}, {""de"" : ""Gemeinde""}, {""en"" : ""Municipality""}, {""es"" : ""Municipio""}]";
+532;"[{""nl"" : ""Deelgemeente""}, {""en"" : ""Sub-Municipality""}]";
+533;"[{""nl"" : ""Speelbos""}, {""fr"" : ""Jouer forêt""}, {""en"" : ""Play woods""}, {""de"" : ""Spielen Wälder""}]";
+534;"[{""nl"" : ""Speelnatuur""}, {""fr"" : ""Jouer nature""}, {""en"" : ""Play nature""}, {""de"" : ""Spielen Natur""}]";
+535;"[{""nl"" : ""Speelweide""}, {""fr"" : ""Jouer prairie""}, {""en"" : ""Play meadow""}, {""de"" : ""Spielen Wiese""}]";
+536;"[{""nl"" : ""Sportveldje""}, {""fr"" : ""Petites espaces sportifs""}, {""de"" : ""Klein Sportzentrum""}, {""en"" : ""Sports Centre Small""}]";
+537;"[{""nl"" : ""Skate terrein""}, {""fr"" : ""Terrain de Skate""}, {""en"" : ""Skate Area""}, {""de"" : ""Skate Gebiet""}]";
+538;"[{""nl"" : ""Speelterrein Jeugdwerk""}, {""fr"" : ""Travail des jeunes""}, {""en"" : ""Play-ground-Youthwork""}, {""de"" : ""Jugendarbeit""}]";
+540;"[{""nl"" : ""Schoolspeelplaats""}, {""fr"" : ""Cour de l'école""}, {""en"" : ""School Playground""}, {""de"" : ""Schule Kinder Spielplatz""}]";
+541;"[{""nl"" : ""Groene passageplek""}, {""fr"" : ""Zone de passage vert""}, {""en"" : ""Green passage area""}, {""de"" : ""Grüne Durchgangsbereich""}]";
+542;"[{""nl"" : ""Jeugdlokaal""}, {""fr"" : ""Salle de jeunesse""}, {""en"" : ""Youth room""}, {""de"" : ""Jugendraum""}]";
+544;"[{""fr"" : ""Maison (jeunesse)""}, {""en"" : ""House (youth)""}, {""de"" : ""Haus (Jugend)""}, {""nl"" : ""Jeugdhuis""}]";
+545;"[{""nl"" : ""Speelpleinwerking""}, {""fr"" : ""Activités terrain de jeux""}, {""en"" : ""Playground activities""}, {""de"" : ""Spielplatz Aktivitäten""}]";
+546;"[{""nl"" : ""Jeugddienst""}, {""fr"" : ""Service jeunesse""}, {""en"" : ""Youth department""}, {""de"" : ""Jugenddienst""}]";
+547;"[{""nl"" : ""Natuureducatief centrum""}, {""fr"" : ""Centre naturelle""}, {""en"" : ""Centre nature education""}, {""de"" : ""Der Natur Bildung""}]";
+549;"[{""nl"" : ""Provincie""}, {""fr"" : ""Département/Province""}, {""en"" : ""County/Province""}, {""de"" : ""Provinz""}, {""ca"" : ""Província""}, {""it"" : ""Provincia""}, {""es"" : ""Provincia""}]";
+550;"[{""nl"" : ""Regio""}, {""fr"" : ""Région""}, {""en"" : ""Region""}, {""de"" : ""Region""}, {""ca"" : ""Regió""}, {""es"" : ""Región""}, {""it"" : ""Regione""}]";[209, 210, 389, 522]
+552;"[{""nl"" : ""Gewest""}, {""fr"" : ""Région""}, {""de"" : ""Region""}, {""en"" : ""Region""}]";
+553;"[{""nl"" : ""Arrondissement""}, {""fr"" : ""Arrondissement""}, {""en"" : ""Arrondissement""}, {""de"" : ""Arrondissement""}, {""it"" : ""Distretto""}, {""ca"" : ""Districte""}, {""es"" : ""Distrito""}]";
+554;"[{""nl"" : ""Departement""}, {""fr"" : ""Département""}, {""en"" : ""Department""}, {""de"" : ""Abteilung""}, {""es"" : ""Departamento""}, {""ca"" : ""Departament""}, {""it"" : ""Dipartimento""}]";
+555;"[{""nl"" : ""Kanton""}, {""fr"" : ""Canton""}, {""en"" : ""Canton""}, {""de"" : ""Kanton""}, {""it"" : ""Canton""}, {""ca"" : ""Cantó""}, {""es"" : ""Cantón""}]";
+556;"[{""nl"" : ""Audio""}, {""fr"" : ""Audio""}, {""en"" : ""Audio""}, {""de"" : ""Audio""}, {""ca"" : ""Audio""}, {""es"" : ""Audio""}, {""it"" : ""Audio""}]";
+557;"[{""ca"" : ""Glacera""}, {""de"" : ""Gletscher""}, {""en"" : ""Glacier""}, {""es"" : ""Glaciar""}, {""fr"" : ""Glacier""}, {""it"" : ""Ghiacciaio""}, {""nl"" : ""Gletsjer""}]";
+558;"[{""en"" : ""Fjord""}, {""nl"" : ""Fjord""}, {""de"" : ""Fjord""}, {""fr"" : ""Fjord""}, {""ca"" : ""Fiord""}, {""it"" : ""Fiordo""}, {""es"" : ""Fiordo""}]";
+560;"[{""ca"" : ""Parada fotogràfica""}, {""nl"" : ""Foto-stopplaats""}, {""en"" : ""Photo stopping point""}, {""it"" : ""Sosta fotografica""}, {""es"" : ""Parada fotográfica""}, {""fr"" : ""Arrêt photographique""}, {""de"" : ""Fotografische Haltepunkt""}]";
+561;"[{""nl"" : ""Wandelaars welkom - overnachtingen""}]";
+562;"[{""nl"" : ""Wandelaars welkom - horeca""}]";
+563;"[{""nl"" : ""Wandelaars welkom - campings""}]";
+564;"[{""nl"" : ""Organisatie""}, {""en"" : ""Organisation""}, {""fr"" : ""Organisation""}, {""de"" : ""Organisation""}, {""es"" : ""Organización""}, {""ca"" : ""Organització""}, {""it"" : ""Organizzazione""}]";[132]
+565;"[{""nl"" : ""Toeristisch Overstappunt - TOP""}, {""en"" : ""Touristic transfer positions - TOP""}, {""fr"" : ""Positions de transfert touristiques - TOP""}, {""de"" : ""Touristische Übertragungspositionen - TOP""}, {""es"" : ""Posiciones de transferencia Turísticas - TOP""}, {""it"" : ""Posizioni di trasferimento turistici  - TOP""}, {""ca"" : ""Posicions de transferència Turístiques - TOP""}]";
+551;"[{""nl"" : ""Buurt/Wijk""}, {""de"" : ""Stadtteil""}, {""en"" : ""Neighborhood""}, {""fr"" : ""Quartier""}, {""ca"" : ""Barri""}, {""it"" : ""Quartiere""}, {""es"" : ""Barrio""}]";
+566;"[{""en"" : ""Secret""}, {""nl"" : ""Geheim""}, {""fr"" : ""Secret""}, {""de"" : ""Geheimnis""}, {""ca"" : ""Secret""}, {""it"" : ""Segreto""}, {""es"" : ""Secreto""}]";
+567;"[{""en"" : ""Information panel""}, {""nl"" : ""Informatiebord""}, {""es"" : ""Panel informative""}, {""ca"" : ""Panell d'informació""}, {""it"" : ""Panello informativo""}, {""de"" : ""Informationstafel ""}, {""fr"" : ""Panneau d'information""}]";
+569;"[{""nl"" : ""Constructie/bouwwerk""}, {""en"" : ""Structure""}, {""fr"" : ""Construction""}, {""de"" : ""Konstruktion""}, {""es"" : ""Construcción""}, {""it"" : ""Costruzione""}, {""ca"" : ""Construcció""}]";[74, 125, 126, 139, 151, 152, 153, 156, 164, 165, 183, 184, 185, 186, 187, 188, 217, 241, 260, 265, 270, 274, 275, 276, 277, 292, 295, 349, 364, 365, 366, 426, 445, 455, 471, 474, 477, 492, 496, 513, 519]
+570;"[{""nl"" : ""Controlepost""}, {""en"" : ""Checkpoint""}, {""fr"" : ""Point de contrôle""}, {""de"" : ""Kontrollpunkt""}, {""es"" : ""Punto de control""}, {""it"" : ""Posto di controllo""}, {""ca"" : ""Punt de control""}]";
+571;"[{""nl"" : ""Bloem""}, {""en"" : ""Flower""}, {""fr"" : ""Fleur""}, {""de"" : ""Blume""}, {""es"" : ""Flor""}, {""it"" : ""Fiore""}, {""ca"" : ""Flor""}]";
+572;"[{""en"" : ""Supply location""}, {""fr"" : ""Emplacement d'approvisionnement""}, {""de"" : ""Lieferort""}, {""es"" : ""Lugar de suministro""}, {""it"" : ""Fornire posizione""}, {""ca"" : ""Ubicació del subministrament""}, {""nl"" : ""Bevoorradingsplaats""}]";
+573;"[{""nl"" : ""Kampeerautoterrein zonder voorzieningen""}, {""en"" : ""Campsite for cars without facilities""}, {""fr"" : ""Terrain de camping sans facilités""}, {""de"" : ""Campingparkplatz ohne Einrichtungen""}, {""es"" : ""Aparcamiento para acampar sin instalaciones""}, {""it"" : ""Parcheggio di campeggio senza servizi""}, {""ca"" : ""Aparcament de càmping sense instal·lacions""}]";
+574;"[{""nl"" : ""Kampeerautoterrein met basisvoorzieningen""}, {""en"" : ""Campsite for cars with basic facilities""}, {""fr"" : ""Terrain de camping avec des installations de base""}, {""de"" : ""Campingparkplatz mit grundlegenden Einrichtungen""}, {""es"" : ""Aparcamiento para acampar con instalaciones básicas""}, {""it"" : ""Parcheggio di campeggio con servizi di base""}, {""ca"" : ""Aparcament de càmping amb instal·lacions bàsiques""}]";
+575;"[{""nl"" : ""Kampeerautoterrein met extra voorzieningen""}, {""en"" : ""Campsite for cars with extra facilities""}, {""fr"" : ""Terrain de camping avec desc installations supllémentaires""}, {""de"" : ""Campingparkplatz mit zusätzlichen Einrichtungen""}, {""es"" : ""Aparcamiento para acampar con instalaciones adicionales""}, {""it"" : ""Parcheggio di campeggio con servizi extra""}, {""ca"" : ""Aparcament de càmping amb instal·lacions addicionals""}]";
